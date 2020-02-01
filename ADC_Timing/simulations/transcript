@@ -1,0 +1,1810 @@
+# Loading project ADC_Timing_sims
+vsim work.adc_timing_module_testbench
+# vsim work.adc_timing_module_testbench 
+# Start time: 07:39:22 on Feb 01,2020
+# Loading sv_std.std
+# Loading work.my_utils
+# Loading work.ADC_Timing_module_testbench_sv_unit
+# Loading work.adc_timing_module_testbench
+# Loading work.ADC_Timing_module
+# Loading work.PPL_100_MHZ_SRC
+# Loading work.PPL_100_MHZ_SRC_0002
+# ** Error: (vsim-3033) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): Instantiation of 'altera_pll' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /adc_timing_module_testbench/T1/pll_100_mhz/ppl_100_mhz_src_inst File: /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v
+#         Searched libraries:
+#             /home/andrey/Programming/Quartus/ADC_Timing/simulations/work
+# Loading work.synch_reset
+# Loading work.pos_edge_detector
+# Loading work.reset_posedge_synchronisor
+# Loading work.freq_divisor
+# Loading work.pulse_50_hz
+# Error loading design
+# End time: 07:39:22 on Feb 01,2020, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vsim -L altera_lnsim_ver work.adc_timing_module_testbench
+# vsim -L altera_lnsim_ver work.adc_timing_module_testbench 
+# Start time: 07:40:42 on Feb 01,2020
+# Loading sv_std.std
+# Loading work.my_utils
+# Loading work.ADC_Timing_module_testbench_sv_unit
+# Loading work.adc_timing_module_testbench
+# Loading work.ADC_Timing_module
+# Loading work.PPL_100_MHZ_SRC
+# Loading work.PPL_100_MHZ_SRC_0002
+# Loading altera_lnsim_ver.altera_lnsim_functions
+# Loading altera_lnsim_ver.altera_pll
+# Loading work.synch_reset
+# Loading work.pos_edge_detector
+# Loading work.reset_posedge_synchronisor
+# Loading work.freq_divisor
+# Loading work.pulse_50_hz
+# Loading altera_lnsim_ver.dps_extra_kick
+# Loading altera_lnsim_ver.dprio_init
+# Loading altera_lnsim_ver.altera_generic_pll_functions
+# Loading altera_lnsim_ver.generic_pll
+# ** Warning: (vsim-3017) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Too few port connections. Expected 26, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /adc_timing_module_testbench/T1/pll_100_mhz/ppl_100_mhz_src_inst/altera_pll_i File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_lnsim.sv
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'refclk1'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'phase_en'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'updn'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'num_phase_shifts'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'cntsel'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'reconfig_to_pll'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'extswitch'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'adjpllin'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'cclk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'phase_done'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'reconfig_from_pll'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'activeclk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'phout'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'lvds_clk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'loaden'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'extclk_out'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'cascade_out'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'zdbfbclk'.
+add wave -position insertpoint  \
+sim:/adc_timing_module_testbench/BASE_FREQ_MHZ \
+sim:/adc_timing_module_testbench/clock_100MHz \
+sim:/adc_timing_module_testbench/nrst \
+sim:/adc_timing_module_testbench/clk \
+sim:/adc_timing_module_testbench/clkout_8mhz \
+sim:/adc_timing_module_testbench/clkout_50hz \
+sim:/adc_timing_module_testbench/gps_pps \
+sim:/adc_timing_module_testbench/mclk \
+sim:/adc_timing_module_testbench/pulse_50_Hz
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (adc_timing_module_testbench.T1.pll_100_mhz.ppl_100_mhz_src_inst.altera_pll_i.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = adc_timing_module_testbench.T1.pll_100_mhz.ppl_100_mhz_src_inst.altera_pll_i.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 100.0 MHz
+# Info: output_clock_frequency = 32.768 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 15258.789062
+# Info: output_clock_low_period = 15258.789062
+add wave -position insertpoint  \
+sim:/adc_timing_module_testbench/BASE_FREQ_MHZ \
+sim:/adc_timing_module_testbench/clock_100MHz \
+sim:/adc_timing_module_testbench/nrst \
+sim:/adc_timing_module_testbench/clk \
+sim:/adc_timing_module_testbench/clkout_8mhz \
+sim:/adc_timing_module_testbench/clkout_50hz \
+sim:/adc_timing_module_testbench/gps_pps \
+sim:/adc_timing_module_testbench/mclk \
+sim:/adc_timing_module_testbench/pulse_50_Hz
+restart -f
+# ** Warning: (vsim-3017) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Too few port connections. Expected 26, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /adc_timing_module_testbench/T1/pll_100_mhz/ppl_100_mhz_src_inst/altera_pll_i File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_lnsim.sv
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'refclk1'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'phase_en'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'updn'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'num_phase_shifts'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'cntsel'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'reconfig_to_pll'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'extswitch'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'adjpllin'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'cclk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'phase_done'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'reconfig_from_pll'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'activeclk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'phout'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'lvds_clk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'loaden'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'extclk_out'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'cascade_out'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'zdbfbclk'.
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (adc_timing_module_testbench.T1.pll_100_mhz.ppl_100_mhz_src_inst.altera_pll_i.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = adc_timing_module_testbench.T1.pll_100_mhz.ppl_100_mhz_src_inst.altera_pll_i.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 100.0 MHz
+# Info: output_clock_frequency = 32.768 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 15258.789062
+# Info: output_clock_low_period = 15258.789062
+# Compile of gen_50_hz_testbench.sv was successful with warnings.
+# Compile of generator_50_hz.sv was successful.
+# Compile of pos_edge_detector_testbench.sv was successful.
+# Compile of pos_edge_detector.sv was successful.
+# Compile of utils.sv was successful with warnings.
+# Compile of freq_divisor_testbench.sv was successful with warnings.
+# Compile of freq_divisor.sv was successful.
+# Compile of reset_posedge_synchronisor_testbench.sv was successful.
+# Compile of reset_posedge_synchronisor.sv was successful.
+# Compile of pll_32mhz_testbench.sv was successful with warnings.
+# Compile of PLL_32_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC_0002.v was successful.
+# Compile of PLL_32_MHZ_SRC_0002.v was successful.
+# Compile of pll_100mhz_testbench.sv was successful with warnings.
+# Compile of synch_reset.sv was successful.
+# Compile of ADC_Timing_Module.sv was successful.
+# Compile of ADC_Timing_module_testbench.sv was successful with warnings.
+# 18 compiles, 0 failed with no errors.
+add wave -position insertpoint  \
+sim:/adc_timing_module_testbench/BASE_FREQ_MHZ \
+sim:/adc_timing_module_testbench/clock_100MHz \
+sim:/adc_timing_module_testbench/nrst \
+sim:/adc_timing_module_testbench/clk \
+sim:/adc_timing_module_testbench/clkout_8mhz \
+sim:/adc_timing_module_testbench/clkout_50hz \
+sim:/adc_timing_module_testbench/gps_pps \
+sim:/adc_timing_module_testbench/mclk \
+sim:/adc_timing_module_testbench/pulse_50_Hz
+add wave -position insertpoint  \
+sim:/adc_timing_module_testbench/T1/CLK_100MHZ \
+sim:/adc_timing_module_testbench/T1/nRST \
+sim:/adc_timing_module_testbench/T1/GPS_PPS \
+sim:/adc_timing_module_testbench/T1/MCLK \
+sim:/adc_timing_module_testbench/T1/PULSE_50_HZ \
+sim:/adc_timing_module_testbench/T1/clkout_32mhz \
+sim:/adc_timing_module_testbench/T1/clkout_3mhz \
+sim:/adc_timing_module_testbench/T1/clkout_8mhz \
+sim:/adc_timing_module_testbench/T1/pulse_50hz \
+sim:/adc_timing_module_testbench/T1/posEdge \
+sim:/adc_timing_module_testbench/T1/sync_8mhz \
+sim:/adc_timing_module_testbench/T1/sync_50hz \
+sim:/adc_timing_module_testbench/T1/pll_locked \
+sim:/adc_timing_module_testbench/T1/clk_32MHz \
+sim:/adc_timing_module_testbench/T1/clk_8mhz \
+sim:/adc_timing_module_testbench/T1/pulse_50_hz
+restart -f
+# Loading work.my_utils
+# Loading work.ADC_Timing_module_testbench_sv_unit
+# Loading work.adc_timing_module_testbench
+# Loading work.ADC_Timing_module
+# Loading work.PPL_100_MHZ_SRC
+# Loading work.PPL_100_MHZ_SRC_0002
+# Loading work.synch_reset
+# Loading work.pos_edge_detector
+# Loading work.reset_posedge_synchronisor
+# Loading work.freq_divisor
+# Loading work.pulse_50_hz
+# ** Warning: (vsim-3017) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Too few port connections. Expected 26, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /adc_timing_module_testbench/T1/pll_100_mhz/ppl_100_mhz_src_inst/altera_pll_i File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_lnsim.sv
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'refclk1'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'phase_en'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'updn'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'num_phase_shifts'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'cntsel'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'reconfig_to_pll'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'extswitch'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'adjpllin'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'cclk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'phase_done'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'reconfig_from_pll'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'activeclk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'phout'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'lvds_clk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'loaden'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'extclk_out'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'cascade_out'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'zdbfbclk'.
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (adc_timing_module_testbench.T1.pll_100_mhz.ppl_100_mhz_src_inst.altera_pll_i.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = adc_timing_module_testbench.T1.pll_100_mhz.ppl_100_mhz_src_inst.altera_pll_i.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 100.0 MHz
+# Info: output_clock_frequency = 32.768 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 15258.789062
+# Info: output_clock_low_period = 15258.789062
+# Compile of gen_50_hz_testbench.sv was successful with warnings.
+# Compile of generator_50_hz.sv was successful.
+# Compile of pos_edge_detector_testbench.sv was successful.
+# Compile of pos_edge_detector.sv was successful.
+# Compile of utils.sv was successful with warnings.
+# Compile of freq_divisor_testbench.sv was successful with warnings.
+# Compile of freq_divisor.sv was successful.
+# Compile of reset_posedge_synchronisor_testbench.sv was successful.
+# Compile of reset_posedge_synchronisor.sv was successful.
+# Compile of pll_32mhz_testbench.sv was successful with warnings.
+# Compile of PLL_32_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC_0002.v was successful.
+# Compile of PLL_32_MHZ_SRC_0002.v was successful.
+# Compile of pll_100mhz_testbench.sv was successful with warnings.
+# Compile of synch_reset.sv was successful.
+# Compile of ADC_Timing_Module.sv was successful.
+# Compile of ADC_Timing_module_testbench.sv was successful with warnings.
+# 18 compiles, 0 failed with no errors.
+restart -f
+# Loading work.my_utils
+# Loading work.ADC_Timing_module_testbench_sv_unit
+# Loading work.adc_timing_module_testbench
+# Loading work.ADC_Timing_module
+# Loading work.PPL_100_MHZ_SRC
+# Loading work.PPL_100_MHZ_SRC_0002
+# Loading work.synch_reset
+# Loading work.pos_edge_detector
+# Loading work.reset_posedge_synchronisor
+# Loading work.freq_divisor
+# Loading work.pulse_50_hz
+# ** Warning: (vsim-3017) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Too few port connections. Expected 26, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /adc_timing_module_testbench/T1/pll_100_mhz/ppl_100_mhz_src_inst/altera_pll_i File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_lnsim.sv
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'refclk1'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'phase_en'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'updn'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'num_phase_shifts'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'cntsel'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'reconfig_to_pll'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'extswitch'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'adjpllin'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'cclk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'phase_done'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'reconfig_from_pll'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'activeclk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'phout'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'lvds_clk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'loaden'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'extclk_out'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'cascade_out'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'zdbfbclk'.
+# Warning in wave window restart: (vish-4014) No objects found matching '/adc_timing_module_testbench/T1/clk_32MHz'. 
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (adc_timing_module_testbench.T1.pll_100_mhz.ppl_100_mhz_src_inst.altera_pll_i.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = adc_timing_module_testbench.T1.pll_100_mhz.ppl_100_mhz_src_inst.altera_pll_i.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 100.0 MHz
+# Info: output_clock_frequency = 32.768 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 15258.789062
+# Info: output_clock_low_period = 15258.789062
+# Compile of gen_50_hz_testbench.sv was successful with warnings.
+# Compile of generator_50_hz.sv was successful.
+# Compile of pos_edge_detector_testbench.sv was successful.
+# Compile of pos_edge_detector.sv was successful.
+# Compile of utils.sv was successful with warnings.
+# Compile of freq_divisor_testbench.sv was successful with warnings.
+# Compile of freq_divisor.sv was successful.
+# Compile of reset_posedge_synchronisor_testbench.sv was successful.
+# Compile of reset_posedge_synchronisor.sv was successful.
+# Compile of pll_32mhz_testbench.sv was successful with warnings.
+# Compile of PLL_32_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC_0002.v was successful.
+# Compile of PLL_32_MHZ_SRC_0002.v was successful.
+# Compile of pll_100mhz_testbench.sv was successful with warnings.
+# Compile of synch_reset.sv was successful.
+# Compile of ADC_Timing_Module.sv was successful.
+# Compile of ADC_Timing_module_testbench.sv was successful with warnings.
+# 18 compiles, 0 failed with no errors.
+restart -f
+# Loading work.my_utils
+# Loading work.ADC_Timing_module_testbench_sv_unit
+# Loading work.adc_timing_module_testbench
+# Loading work.ADC_Timing_module
+# Loading work.PPL_100_MHZ_SRC
+# Loading work.PPL_100_MHZ_SRC_0002
+# Loading work.synch_reset
+# Loading work.pos_edge_detector
+# Loading work.reset_posedge_synchronisor
+# Loading work.freq_divisor
+# Loading work.pulse_50_hz
+# ** Warning: (vsim-3017) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Too few port connections. Expected 26, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /adc_timing_module_testbench/T1/pll_100_mhz/ppl_100_mhz_src_inst/altera_pll_i File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_lnsim.sv
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'refclk1'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'phase_en'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'updn'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'num_phase_shifts'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'cntsel'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'reconfig_to_pll'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'extswitch'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'adjpllin'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'cclk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'phase_done'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'reconfig_from_pll'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'activeclk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'phout'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'lvds_clk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'loaden'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'extclk_out'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'cascade_out'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'zdbfbclk'.
+# Warning in wave window restart: (vish-4014) No objects found matching '/adc_timing_module_testbench/clkout_8mhz'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/adc_timing_module_testbench/clkout_50hz'. 
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (adc_timing_module_testbench.T1.pll_100_mhz.ppl_100_mhz_src_inst.altera_pll_i.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = adc_timing_module_testbench.T1.pll_100_mhz.ppl_100_mhz_src_inst.altera_pll_i.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 100.0 MHz
+# Info: output_clock_frequency = 32.768 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 15258.789062
+# Info: output_clock_low_period = 15258.789062
+# Compile of gen_50_hz_testbench.sv was successful with warnings.
+# Compile of generator_50_hz.sv was successful.
+# Compile of pos_edge_detector_testbench.sv was successful.
+# Compile of pos_edge_detector.sv was successful.
+# Compile of utils.sv was successful with warnings.
+# Compile of freq_divisor_testbench.sv was successful with warnings.
+# Compile of freq_divisor.sv was successful.
+# Compile of reset_posedge_synchronisor_testbench.sv was successful.
+# Compile of reset_posedge_synchronisor.sv was successful.
+# Compile of pll_32mhz_testbench.sv was successful with warnings.
+# Compile of PLL_32_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC_0002.v was successful.
+# Compile of PLL_32_MHZ_SRC_0002.v was successful.
+# Compile of pll_100mhz_testbench.sv was successful with warnings.
+# Compile of synch_reset.sv was successful.
+# Compile of ADC_Timing_Module.sv was successful.
+# Compile of ADC_Timing_module_testbench.sv was successful with warnings.
+# 18 compiles, 0 failed with no errors.
+add wave -position insertpoint  \
+sim:/adc_timing_module_testbench/BASE_FREQ_MHZ \
+sim:/adc_timing_module_testbench/clock_100MHz \
+sim:/adc_timing_module_testbench/nrst \
+sim:/adc_timing_module_testbench/clk \
+sim:/adc_timing_module_testbench/gps_pps \
+sim:/adc_timing_module_testbench/mclk \
+sim:/adc_timing_module_testbench/pulse_50_Hz
+restart -f
+# Loading work.my_utils
+# Loading work.ADC_Timing_module_testbench_sv_unit
+# Loading work.adc_timing_module_testbench
+# Loading work.ADC_Timing_module
+# Loading work.PPL_100_MHZ_SRC
+# Loading work.PPL_100_MHZ_SRC_0002
+# Loading work.synch_reset
+# Loading work.pos_edge_detector
+# Loading work.reset_posedge_synchronisor
+# Loading work.freq_divisor
+# Loading work.pulse_50_hz
+# ** Warning: (vsim-3017) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Too few port connections. Expected 26, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /adc_timing_module_testbench/T1/pll_100_mhz/ppl_100_mhz_src_inst/altera_pll_i File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_lnsim.sv
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'refclk1'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'phase_en'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'updn'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'num_phase_shifts'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'cntsel'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'reconfig_to_pll'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'extswitch'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'adjpllin'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'cclk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'phase_done'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'reconfig_from_pll'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'activeclk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'phout'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'lvds_clk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'loaden'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'extclk_out'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'cascade_out'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'zdbfbclk'.
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (adc_timing_module_testbench.T1.pll_100_mhz.ppl_100_mhz_src_inst.altera_pll_i.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = adc_timing_module_testbench.T1.pll_100_mhz.ppl_100_mhz_src_inst.altera_pll_i.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 100.0 MHz
+# Info: output_clock_frequency = 32.768 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 15258.789062
+# Info: output_clock_low_period = 15258.789062
+# Compile of gen_50_hz_testbench.sv was successful with warnings.
+# Compile of generator_50_hz.sv was successful.
+# Compile of pos_edge_detector_testbench.sv was successful.
+# Compile of pos_edge_detector.sv was successful.
+# Compile of utils.sv was successful with warnings.
+# Compile of freq_divisor_testbench.sv was successful with warnings.
+# Compile of freq_divisor.sv was successful.
+# Compile of reset_posedge_synchronisor_testbench.sv was successful.
+# Compile of reset_posedge_synchronisor.sv was successful.
+# Compile of pll_32mhz_testbench.sv was successful with warnings.
+# Compile of PLL_32_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC_0002.v was successful.
+# Compile of PLL_32_MHZ_SRC_0002.v was successful.
+# Compile of pll_100mhz_testbench.sv was successful with warnings.
+# Compile of synch_reset.sv was successful.
+# Compile of ADC_Timing_Module.sv was successful.
+# Compile of ADC_Timing_module_testbench.sv was successful with warnings.
+# 18 compiles, 0 failed with no errors.
+# Compile of gen_50_hz_testbench.sv was successful with warnings.
+# Compile of generator_50_hz.sv was successful.
+# Compile of pos_edge_detector_testbench.sv was successful.
+# Compile of pos_edge_detector.sv was successful.
+# Compile of utils.sv was successful with warnings.
+# Compile of freq_divisor_testbench.sv was successful with warnings.
+# Compile of freq_divisor.sv was successful.
+# Compile of reset_posedge_synchronisor_testbench.sv was successful.
+# Compile of reset_posedge_synchronisor.sv was successful.
+# Compile of pll_32mhz_testbench.sv was successful with warnings.
+# Compile of PLL_32_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC_0002.v was successful.
+# Compile of PLL_32_MHZ_SRC_0002.v was successful.
+# Compile of pll_100mhz_testbench.sv was successful with warnings.
+# Compile of synch_reset.sv was successful.
+# Compile of ADC_Timing_Module.sv was successful.
+# Compile of ADC_Timing_module_testbench.sv was successful with warnings.
+# 18 compiles, 0 failed with no errors.
+restart -f
+# Loading work.my_utils
+# Loading work.ADC_Timing_module_testbench_sv_unit
+# Loading work.adc_timing_module_testbench
+# Loading work.ADC_Timing_module
+# Loading work.PPL_100_MHZ_SRC
+# Loading work.PPL_100_MHZ_SRC_0002
+# Loading work.synch_reset
+# Loading work.pos_edge_detector
+# Loading work.reset_posedge_synchronisor
+# Loading work.freq_divisor
+# Loading work.pulse_50_hz
+# ** Warning: (vsim-3017) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Too few port connections. Expected 26, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /adc_timing_module_testbench/T1/pll_100_mhz/ppl_100_mhz_src_inst/altera_pll_i File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_lnsim.sv
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'refclk1'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'phase_en'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'updn'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'num_phase_shifts'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'cntsel'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'reconfig_to_pll'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'extswitch'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'adjpllin'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'cclk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'phase_done'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'reconfig_from_pll'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'activeclk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'phout'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'lvds_clk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'loaden'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'extclk_out'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'cascade_out'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'zdbfbclk'.
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (adc_timing_module_testbench.T1.pll_100_mhz.ppl_100_mhz_src_inst.altera_pll_i.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = adc_timing_module_testbench.T1.pll_100_mhz.ppl_100_mhz_src_inst.altera_pll_i.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 100.0 MHz
+# Info: output_clock_frequency = 32.768 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 15258.789062
+# Info: output_clock_low_period = 15258.789062
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Compile of gen_50_hz_testbench.sv was successful with warnings.
+# Compile of generator_50_hz.sv was successful.
+# Compile of pos_edge_detector_testbench.sv was successful.
+# Compile of pos_edge_detector.sv was successful.
+# Compile of utils.sv was successful with warnings.
+# Compile of freq_divisor_testbench.sv was successful with warnings.
+# Compile of freq_divisor.sv was successful.
+# Compile of reset_posedge_synchronisor_testbench.sv was successful.
+# Compile of reset_posedge_synchronisor.sv was successful.
+# Compile of pll_32mhz_testbench.sv was successful with warnings.
+# Compile of PLL_32_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC_0002.v was successful.
+# Compile of PLL_32_MHZ_SRC_0002.v was successful.
+# Compile of pll_100mhz_testbench.sv was successful with warnings.
+# Compile of synch_reset.sv was successful.
+# Compile of ADC_Timing_Module.sv was successful.
+# Compile of ADC_Timing_module_testbench.sv was successful with warnings.
+# 18 compiles, 0 failed with no errors.
+restart -f
+# Loading work.my_utils
+# Loading work.ADC_Timing_module_testbench_sv_unit
+# Loading work.adc_timing_module_testbench
+# Loading work.ADC_Timing_module
+# Loading work.PPL_100_MHZ_SRC
+# Loading work.PPL_100_MHZ_SRC_0002
+# Loading work.synch_reset
+# Loading work.pos_edge_detector
+# Loading work.reset_posedge_synchronisor
+# Loading work.freq_divisor
+# Loading work.pulse_50_hz
+# ** Warning: (vsim-3017) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Too few port connections. Expected 26, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /adc_timing_module_testbench/T1/pll_100_mhz/ppl_100_mhz_src_inst/altera_pll_i File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_lnsim.sv
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'refclk1'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'phase_en'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'updn'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'num_phase_shifts'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'cntsel'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'reconfig_to_pll'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'extswitch'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'adjpllin'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'cclk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'phase_done'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'reconfig_from_pll'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'activeclk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'phout'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'lvds_clk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'loaden'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'extclk_out'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'cascade_out'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'zdbfbclk'.
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (adc_timing_module_testbench.T1.pll_100_mhz.ppl_100_mhz_src_inst.altera_pll_i.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = adc_timing_module_testbench.T1.pll_100_mhz.ppl_100_mhz_src_inst.altera_pll_i.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 100.0 MHz
+# Info: output_clock_frequency = 32.768 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 15258.789062
+# Info: output_clock_low_period = 15258.789062
+# Compile of gen_50_hz_testbench.sv was successful with warnings.
+# Compile of generator_50_hz.sv was successful.
+# Compile of pos_edge_detector_testbench.sv was successful.
+# Compile of pos_edge_detector.sv was successful.
+# Compile of utils.sv was successful with warnings.
+# Compile of freq_divisor_testbench.sv was successful with warnings.
+# Compile of freq_divisor.sv was successful.
+# Compile of reset_posedge_synchronisor_testbench.sv was successful.
+# Compile of reset_posedge_synchronisor.sv was successful.
+# Compile of pll_32mhz_testbench.sv was successful with warnings.
+# Compile of PLL_32_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC_0002.v was successful.
+# Compile of PLL_32_MHZ_SRC_0002.v was successful.
+# Compile of pll_100mhz_testbench.sv was successful with warnings.
+# Compile of synch_reset.sv was successful.
+# Compile of ADC_Timing_Module.sv was successful.
+# Compile of ADC_Timing_module_testbench.sv was successful with warnings.
+# 18 compiles, 0 failed with no errors.
+restart -f
+# Loading work.my_utils
+# Loading work.ADC_Timing_module_testbench_sv_unit
+# Loading work.adc_timing_module_testbench
+# Loading work.ADC_Timing_module
+# Loading work.PPL_100_MHZ_SRC
+# Loading work.PPL_100_MHZ_SRC_0002
+# Loading work.synch_reset
+# Loading work.pos_edge_detector
+# Loading work.reset_posedge_synchronisor
+# Loading work.freq_divisor
+# Loading work.pulse_50_hz
+# ** Warning: (vsim-3017) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Too few port connections. Expected 26, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /adc_timing_module_testbench/T1/pll_100_mhz/ppl_100_mhz_src_inst/altera_pll_i File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_lnsim.sv
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'refclk1'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'phase_en'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'updn'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'num_phase_shifts'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'cntsel'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'reconfig_to_pll'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'extswitch'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'adjpllin'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'cclk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'phase_done'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'reconfig_from_pll'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'activeclk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'phout'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'lvds_clk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'loaden'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'extclk_out'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'cascade_out'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'zdbfbclk'.
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (adc_timing_module_testbench.T1.pll_100_mhz.ppl_100_mhz_src_inst.altera_pll_i.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = adc_timing_module_testbench.T1.pll_100_mhz.ppl_100_mhz_src_inst.altera_pll_i.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 100.0 MHz
+# Info: output_clock_frequency = 32.768 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 15258.789062
+# Info: output_clock_low_period = 15258.789062
+add wave -position insertpoint  \
+sim:/adc_timing_module_testbench/T1/CLK_100MHZ \
+sim:/adc_timing_module_testbench/T1/nRST \
+sim:/adc_timing_module_testbench/T1/GPS_PPS \
+sim:/adc_timing_module_testbench/T1/MCLK \
+sim:/adc_timing_module_testbench/T1/PULSE_50_HZ \
+sim:/adc_timing_module_testbench/T1/clkout_32mhz \
+sim:/adc_timing_module_testbench/T1/clkout_3mhz \
+sim:/adc_timing_module_testbench/T1/clkout_8mhz \
+sim:/adc_timing_module_testbench/T1/pulse_50hz \
+sim:/adc_timing_module_testbench/T1/posEdge \
+sim:/adc_timing_module_testbench/T1/sync_8mhz \
+sim:/adc_timing_module_testbench/T1/sync_50hz \
+sim:/adc_timing_module_testbench/T1/pll_locked \
+sim:/adc_timing_module_testbench/T1/clk_8mhz \
+sim:/adc_timing_module_testbench/T1/pulse_50_hz
+# Compile of gen_50_hz_testbench.sv was successful with warnings.
+# Compile of generator_50_hz.sv was successful.
+# Compile of pos_edge_detector_testbench.sv was successful.
+# Compile of pos_edge_detector.sv was successful.
+# Compile of utils.sv was successful with warnings.
+# Compile of freq_divisor_testbench.sv was successful with warnings.
+# Compile of freq_divisor.sv was successful.
+# Compile of reset_posedge_synchronisor_testbench.sv was successful.
+# Compile of reset_posedge_synchronisor.sv was successful.
+# Compile of pll_32mhz_testbench.sv was successful with warnings.
+# Compile of PLL_32_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC_0002.v was successful.
+# Compile of PLL_32_MHZ_SRC_0002.v was successful.
+# Compile of pll_100mhz_testbench.sv was successful with warnings.
+# Compile of synch_reset.sv was successful.
+# Compile of ADC_Timing_Module.sv was successful.
+# Compile of ADC_Timing_module_testbench.sv was successful with warnings.
+# 18 compiles, 0 failed with no errors.
+restart -f
+# Loading work.my_utils
+# Loading work.ADC_Timing_module_testbench_sv_unit
+# Loading work.adc_timing_module_testbench
+# Loading work.ADC_Timing_module
+# Loading work.PPL_100_MHZ_SRC
+# Loading work.PPL_100_MHZ_SRC_0002
+# Loading work.synch_reset
+# Loading work.pos_edge_detector
+# Loading work.reset_posedge_synchronisor
+# Loading work.freq_divisor
+# Loading work.pulse_50_hz
+# ** Warning: (vsim-3017) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Too few port connections. Expected 26, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /adc_timing_module_testbench/T1/pll_100_mhz/ppl_100_mhz_src_inst/altera_pll_i File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_lnsim.sv
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'refclk1'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'phase_en'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'updn'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'num_phase_shifts'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'cntsel'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'reconfig_to_pll'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'extswitch'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'adjpllin'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'cclk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'phase_done'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'reconfig_from_pll'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'activeclk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'phout'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'lvds_clk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'loaden'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'extclk_out'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'cascade_out'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'zdbfbclk'.
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (adc_timing_module_testbench.T1.pll_100_mhz.ppl_100_mhz_src_inst.altera_pll_i.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = adc_timing_module_testbench.T1.pll_100_mhz.ppl_100_mhz_src_inst.altera_pll_i.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 100.0 MHz
+# Info: output_clock_frequency = 32.768 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 15258.789062
+# Info: output_clock_low_period = 15258.789062
+# Compile of gen_50_hz_testbench.sv was successful with warnings.
+# Compile of generator_50_hz.sv was successful.
+# Compile of pos_edge_detector_testbench.sv was successful.
+# Compile of pos_edge_detector.sv was successful.
+# Compile of utils.sv was successful with warnings.
+# Compile of freq_divisor_testbench.sv was successful with warnings.
+# Compile of freq_divisor.sv was successful.
+# Compile of reset_posedge_synchronisor_testbench.sv was successful.
+# Compile of reset_posedge_synchronisor.sv was successful.
+# Compile of pll_32mhz_testbench.sv was successful with warnings.
+# Compile of PLL_32_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC_0002.v was successful.
+# Compile of PLL_32_MHZ_SRC_0002.v was successful.
+# Compile of pll_100mhz_testbench.sv was successful with warnings.
+# Compile of synch_reset.sv was successful.
+# Compile of ADC_Timing_Module.sv was successful.
+# Compile of ADC_Timing_module_testbench.sv was successful with warnings.
+# 18 compiles, 0 failed with no errors.
+restart -f
+# Loading work.my_utils
+# Loading work.ADC_Timing_module_testbench_sv_unit
+# Loading work.adc_timing_module_testbench
+# Loading work.ADC_Timing_module
+# Loading work.PPL_100_MHZ_SRC
+# Loading work.PPL_100_MHZ_SRC_0002
+# Loading work.synch_reset
+# Loading work.pos_edge_detector
+# Loading work.reset_posedge_synchronisor
+# Loading work.freq_divisor
+# Loading work.pulse_50_hz
+# ** Warning: (vsim-3017) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Too few port connections. Expected 26, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /adc_timing_module_testbench/T1/pll_100_mhz/ppl_100_mhz_src_inst/altera_pll_i File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_lnsim.sv
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'refclk1'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'phase_en'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'updn'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'num_phase_shifts'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'cntsel'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'reconfig_to_pll'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'extswitch'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'adjpllin'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'cclk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'phase_done'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'reconfig_from_pll'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'activeclk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'phout'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'lvds_clk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'loaden'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'extclk_out'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'cascade_out'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'zdbfbclk'.
+# Warning in wave window restart: (vish-4014) No objects found matching '/adc_timing_module_testbench/T1/clk_8mhz'. 
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (adc_timing_module_testbench.T1.pll_100_mhz.ppl_100_mhz_src_inst.altera_pll_i.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = adc_timing_module_testbench.T1.pll_100_mhz.ppl_100_mhz_src_inst.altera_pll_i.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 100.0 MHz
+# Info: output_clock_frequency = 32.768 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 15258.789062
+# Info: output_clock_low_period = 15258.789062
+# Compile of gen_50_hz_testbench.sv was successful with warnings.
+# Compile of generator_50_hz.sv was successful.
+# Compile of pos_edge_detector_testbench.sv was successful.
+# Compile of pos_edge_detector.sv was successful.
+# Compile of utils.sv was successful with warnings.
+# Compile of freq_divisor_testbench.sv was successful with warnings.
+# Compile of freq_divisor.sv was successful.
+# Compile of reset_posedge_synchronisor_testbench.sv was successful.
+# Compile of reset_posedge_synchronisor.sv was successful.
+# Compile of pll_32mhz_testbench.sv was successful with warnings.
+# Compile of PLL_32_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC_0002.v was successful.
+# Compile of PLL_32_MHZ_SRC_0002.v was successful.
+# Compile of pll_100mhz_testbench.sv was successful with warnings.
+# Compile of synch_reset.sv was successful.
+# Compile of ADC_Timing_Module.sv was successful.
+# Compile of ADC_Timing_module_testbench.sv was successful with warnings.
+# 18 compiles, 0 failed with no errors.
+# Compile of gen_50_hz_testbench.sv was successful with warnings.
+# Compile of generator_50_hz.sv was successful.
+# Compile of pos_edge_detector_testbench.sv was successful.
+# Compile of pos_edge_detector.sv was successful.
+# Compile of utils.sv was successful with warnings.
+# Compile of freq_divisor_testbench.sv was successful with warnings.
+# Compile of freq_divisor.sv was successful.
+# Compile of reset_posedge_synchronisor_testbench.sv was successful.
+# Compile of reset_posedge_synchronisor.sv was successful.
+# Compile of pll_32mhz_testbench.sv was successful with warnings.
+# Compile of PLL_32_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC_0002.v was successful.
+# Compile of PLL_32_MHZ_SRC_0002.v was successful.
+# Compile of pll_100mhz_testbench.sv was successful with warnings.
+# Compile of synch_reset.sv was successful.
+# Compile of ADC_Timing_Module.sv was successful.
+# Compile of ADC_Timing_module_testbench.sv was successful with warnings.
+# 18 compiles, 0 failed with no errors.
+restart -f
+# Loading work.my_utils
+# Loading work.ADC_Timing_module_testbench_sv_unit
+# Loading work.adc_timing_module_testbench
+# Loading work.ADC_Timing_module
+# Loading work.PPL_100_MHZ_SRC
+# Loading work.PPL_100_MHZ_SRC_0002
+# Loading work.synch_reset
+# Loading work.pos_edge_detector
+# Loading work.reset_posedge_synchronisor
+# Loading work.freq_divisor
+# Loading work.pulse_50_hz
+# ** Warning: (vsim-3017) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Too few port connections. Expected 26, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /adc_timing_module_testbench/T1/pll_100_mhz/ppl_100_mhz_src_inst/altera_pll_i File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_lnsim.sv
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'refclk1'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'phase_en'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'updn'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'num_phase_shifts'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'cntsel'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'reconfig_to_pll'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'extswitch'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'adjpllin'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'cclk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'phase_done'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'reconfig_from_pll'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'activeclk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'phout'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'lvds_clk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'loaden'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'extclk_out'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'cascade_out'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'zdbfbclk'.
+# Warning in wave window restart: (vish-4014) No objects found matching '/adc_timing_module_testbench/T1/pulse_50hz'. 
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (adc_timing_module_testbench.T1.pll_100_mhz.ppl_100_mhz_src_inst.altera_pll_i.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = adc_timing_module_testbench.T1.pll_100_mhz.ppl_100_mhz_src_inst.altera_pll_i.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 100.0 MHz
+# Info: output_clock_frequency = 32.768 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 15258.789062
+# Info: output_clock_low_period = 15258.789062
+# Compile of gen_50_hz_testbench.sv was successful with warnings.
+# Compile of generator_50_hz.sv was successful.
+# Compile of pos_edge_detector_testbench.sv was successful.
+# Compile of pos_edge_detector.sv was successful.
+# Compile of utils.sv was successful with warnings.
+# Compile of freq_divisor_testbench.sv was successful with warnings.
+# Compile of freq_divisor.sv was successful.
+# Compile of reset_posedge_synchronisor_testbench.sv was successful.
+# Compile of reset_posedge_synchronisor.sv was successful.
+# Compile of pll_32mhz_testbench.sv was successful with warnings.
+# Compile of PLL_32_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC_0002.v was successful.
+# Compile of PLL_32_MHZ_SRC_0002.v was successful.
+# Compile of pll_100mhz_testbench.sv was successful with warnings.
+# Compile of synch_reset.sv was successful.
+# Compile of ADC_Timing_Module.sv was successful.
+# Compile of ADC_Timing_module_testbench.sv was successful with warnings.
+# 18 compiles, 0 failed with no errors.
+restart -f
+# Loading work.my_utils
+# Loading work.ADC_Timing_module_testbench_sv_unit
+# Loading work.adc_timing_module_testbench
+# Loading work.ADC_Timing_module
+# Loading work.PPL_100_MHZ_SRC
+# Loading work.PPL_100_MHZ_SRC_0002
+# Loading work.synch_reset
+# Loading work.pos_edge_detector
+# Loading work.reset_posedge_synchronisor
+# Loading work.freq_divisor
+# Loading work.pulse_50_hz
+# ** Warning: (vsim-3017) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Too few port connections. Expected 26, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /adc_timing_module_testbench/T1/pll_100_mhz/ppl_100_mhz_src_inst/altera_pll_i File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_lnsim.sv
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'refclk1'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'phase_en'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'updn'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'num_phase_shifts'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'cntsel'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'reconfig_to_pll'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'extswitch'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'adjpllin'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'cclk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'phase_done'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'reconfig_from_pll'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'activeclk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'phout'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'lvds_clk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'loaden'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'extclk_out'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'cascade_out'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'zdbfbclk'.
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (adc_timing_module_testbench.T1.pll_100_mhz.ppl_100_mhz_src_inst.altera_pll_i.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = adc_timing_module_testbench.T1.pll_100_mhz.ppl_100_mhz_src_inst.altera_pll_i.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 100.0 MHz
+# Info: output_clock_frequency = 32.768 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 15258.789062
+# Info: output_clock_low_period = 15258.789062
+# Compile of gen_50_hz_testbench.sv was successful with warnings.
+# Compile of generator_50_hz.sv was successful.
+# Compile of pos_edge_detector_testbench.sv was successful.
+# Compile of pos_edge_detector.sv was successful.
+# Compile of utils.sv was successful with warnings.
+# Compile of freq_divisor_testbench.sv was successful with warnings.
+# Compile of freq_divisor.sv was successful.
+# Compile of reset_posedge_synchronisor_testbench.sv was successful.
+# Compile of reset_posedge_synchronisor.sv was successful.
+# Compile of pll_32mhz_testbench.sv was successful with warnings.
+# Compile of PLL_32_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC_0002.v was successful.
+# Compile of PLL_32_MHZ_SRC_0002.v was successful.
+# Compile of pll_100mhz_testbench.sv was successful with warnings.
+# Compile of synch_reset.sv was successful.
+# Compile of ADC_Timing_Module.sv was successful.
+# Compile of ADC_Timing_module_testbench.sv was successful with warnings.
+# Compile of synch_reset_testbench.sv failed with 2 errors.
+# 19 compiles, 1 failed with 2 errors.
+# Compile of gen_50_hz_testbench.sv was successful with warnings.
+# Compile of generator_50_hz.sv was successful.
+# Compile of pos_edge_detector_testbench.sv was successful.
+# Compile of pos_edge_detector.sv was successful.
+# Compile of utils.sv was successful with warnings.
+# Compile of freq_divisor_testbench.sv was successful with warnings.
+# Compile of freq_divisor.sv was successful.
+# Compile of reset_posedge_synchronisor_testbench.sv was successful.
+# Compile of reset_posedge_synchronisor.sv was successful.
+# Compile of pll_32mhz_testbench.sv was successful with warnings.
+# Compile of PLL_32_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC_0002.v was successful.
+# Compile of PLL_32_MHZ_SRC_0002.v was successful.
+# Compile of pll_100mhz_testbench.sv was successful with warnings.
+# Compile of synch_reset.sv was successful.
+# Compile of ADC_Timing_Module.sv was successful.
+# Compile of ADC_Timing_module_testbench.sv was successful with warnings.
+# Compile of synch_reset_testbench.sv was successful with warnings.
+# 19 compiles, 0 failed with no errors.
+vsim -L altera_lnsim_ver work.synch_reset_testbench
+# End time: 16:46:26 on Feb 01,2020, Elapsed time: 9:05:44
+# Errors: 8, Warnings: 287
+# vsim -L altera_lnsim_ver work.synch_reset_testbench 
+# Start time: 16:46:26 on Feb 01,2020
+# Loading sv_std.std
+# Loading work.my_utils
+# Loading work.synch_reset_testbench_sv_unit
+# Loading work.synch_reset_testbench
+# Loading work.synch_reset
+# Loading work.pos_edge_detector
+# Loading work.reset_posedge_synchronisor
+add wave -position insertpoint  \
+sim:/synch_reset_testbench/FREQ_MHZ \
+sim:/synch_reset_testbench/clock_32mhz \
+sim:/synch_reset_testbench/clk_32mhz \
+sim:/synch_reset_testbench/nRST \
+sim:/synch_reset_testbench/GPS_PPS \
+sim:/synch_reset_testbench/sync_8mhz \
+sim:/synch_reset_testbench/clkout_32mhz
+# Compile of gen_50_hz_testbench.sv was successful with warnings.
+# Compile of generator_50_hz.sv was successful.
+# Compile of pos_edge_detector_testbench.sv was successful.
+# Compile of pos_edge_detector.sv was successful.
+# Compile of utils.sv was successful with warnings.
+# Compile of freq_divisor_testbench.sv was successful with warnings.
+# Compile of freq_divisor.sv was successful.
+# Compile of reset_posedge_synchronisor_testbench.sv was successful.
+# Compile of reset_posedge_synchronisor.sv was successful.
+# Compile of pll_32mhz_testbench.sv was successful with warnings.
+# Compile of PLL_32_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC_0002.v was successful.
+# Compile of PLL_32_MHZ_SRC_0002.v was successful.
+# Compile of pll_100mhz_testbench.sv was successful with warnings.
+# Compile of synch_reset.sv was successful.
+# Compile of ADC_Timing_Module.sv was successful.
+# Compile of ADC_Timing_module_testbench.sv was successful with warnings.
+# Compile of synch_reset_testbench.sv was successful with warnings.
+# 19 compiles, 0 failed with no errors.
+restart -f
+# Loading work.my_utils
+# Loading work.synch_reset_testbench_sv_unit
+# Loading work.synch_reset_testbench
+# Loading work.synch_reset
+# Loading work.pos_edge_detector
+# Loading work.reset_posedge_synchronisor
+# Compile of gen_50_hz_testbench.sv was successful with warnings.
+# Compile of generator_50_hz.sv was successful.
+# Compile of pos_edge_detector_testbench.sv was successful.
+# Compile of pos_edge_detector.sv was successful.
+# Compile of utils.sv was successful with warnings.
+# Compile of freq_divisor_testbench.sv was successful with warnings.
+# Compile of freq_divisor.sv was successful.
+# Compile of reset_posedge_synchronisor_testbench.sv was successful.
+# Compile of reset_posedge_synchronisor.sv was successful.
+# Compile of pll_32mhz_testbench.sv was successful with warnings.
+# Compile of PLL_32_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC_0002.v was successful.
+# Compile of PLL_32_MHZ_SRC_0002.v was successful.
+# Compile of pll_100mhz_testbench.sv was successful with warnings.
+# Compile of synch_reset.sv was successful.
+# Compile of ADC_Timing_Module.sv was successful.
+# Compile of ADC_Timing_module_testbench.sv was successful with warnings.
+# Compile of synch_reset_testbench.sv was successful with warnings.
+# 19 compiles, 0 failed with no errors.
+restart -f
+# Loading work.my_utils
+# Loading work.synch_reset_testbench_sv_unit
+# Loading work.synch_reset_testbench
+# Loading work.synch_reset
+# Loading work.pos_edge_detector
+# Loading work.reset_posedge_synchronisor
+# Compile of gen_50_hz_testbench.sv was successful with warnings.
+# Compile of generator_50_hz.sv was successful.
+# Compile of pos_edge_detector_testbench.sv was successful.
+# Compile of pos_edge_detector.sv was successful.
+# Compile of utils.sv was successful with warnings.
+# Compile of freq_divisor_testbench.sv was successful with warnings.
+# Compile of freq_divisor.sv was successful.
+# Compile of reset_posedge_synchronisor_testbench.sv was successful.
+# Compile of reset_posedge_synchronisor.sv was successful.
+# Compile of pll_32mhz_testbench.sv was successful with warnings.
+# Compile of PLL_32_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC_0002.v was successful.
+# Compile of PLL_32_MHZ_SRC_0002.v was successful.
+# Compile of pll_100mhz_testbench.sv was successful with warnings.
+# Compile of synch_reset.sv was successful.
+# Compile of ADC_Timing_Module.sv was successful.
+# Compile of ADC_Timing_module_testbench.sv was successful with warnings.
+# Compile of synch_reset_testbench.sv was successful with warnings.
+# 19 compiles, 0 failed with no errors.
+vsim -L altera_lnsim_ver work.synch_reset_testbench
+# End time: 16:47:47 on Feb 01,2020, Elapsed time: 0:01:21
+# Errors: 0, Warnings: 0
+# vsim -L altera_lnsim_ver work.synch_reset_testbench 
+# Start time: 16:47:47 on Feb 01,2020
+# Loading sv_std.std
+# Loading work.my_utils
+# Loading work.synch_reset_testbench_sv_unit
+# Loading work.synch_reset_testbench
+# Loading work.synch_reset
+# Loading work.pos_edge_detector
+# Loading work.reset_posedge_synchronisor
+restart -f
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Compile of gen_50_hz_testbench.sv was successful with warnings.
+# Compile of generator_50_hz.sv was successful.
+# Compile of pos_edge_detector_testbench.sv was successful.
+# Compile of pos_edge_detector.sv was successful.
+# Compile of utils.sv was successful with warnings.
+# Compile of freq_divisor_testbench.sv was successful with warnings.
+# Compile of freq_divisor.sv was successful.
+# Compile of reset_posedge_synchronisor_testbench.sv was successful.
+# Compile of reset_posedge_synchronisor.sv was successful.
+# Compile of pll_32mhz_testbench.sv was successful with warnings.
+# Compile of PLL_32_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC_0002.v was successful.
+# Compile of PLL_32_MHZ_SRC_0002.v was successful.
+# Compile of pll_100mhz_testbench.sv was successful with warnings.
+# Compile of synch_reset.sv was successful.
+# Compile of ADC_Timing_Module.sv was successful.
+# Compile of ADC_Timing_module_testbench.sv was successful with warnings.
+# Compile of synch_reset_testbench.sv was successful with warnings.
+# 19 compiles, 0 failed with no errors.
+add wave -position insertpoint  \
+sim:/synch_reset_testbench/FREQ_MHZ \
+sim:/synch_reset_testbench/clock_32mhz \
+sim:/synch_reset_testbench/clk_32mhz \
+sim:/synch_reset_testbench/nRST \
+sim:/synch_reset_testbench/GPS_PPS \
+sim:/synch_reset_testbench/sync_8mhz \
+sim:/synch_reset_testbench/clkout_32mhz
+restart -f
+# Loading work.my_utils
+# Loading work.synch_reset_testbench_sv_unit
+# Loading work.synch_reset_testbench
+# Loading work.synch_reset
+# Loading work.pos_edge_detector
+# Loading work.reset_posedge_synchronisor
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+run
+# Compile of gen_50_hz_testbench.sv was successful with warnings.
+# Compile of generator_50_hz.sv was successful.
+# Compile of pos_edge_detector_testbench.sv was successful.
+# Compile of pos_edge_detector.sv was successful.
+# Compile of utils.sv was successful with warnings.
+# Compile of freq_divisor_testbench.sv was successful with warnings.
+# Compile of freq_divisor.sv was successful.
+# Compile of reset_posedge_synchronisor_testbench.sv was successful.
+# Compile of reset_posedge_synchronisor.sv was successful.
+# Compile of pll_32mhz_testbench.sv was successful with warnings.
+# Compile of PLL_32_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC_0002.v was successful.
+# Compile of PLL_32_MHZ_SRC_0002.v was successful.
+# Compile of pll_100mhz_testbench.sv was successful with warnings.
+# Compile of synch_reset.sv was successful.
+# Compile of ADC_Timing_Module.sv was successful.
+# Compile of ADC_Timing_module_testbench.sv was successful with warnings.
+# Compile of synch_reset_testbench.sv was successful with warnings.
+# 19 compiles, 0 failed with no errors.
+restart -f
+# Loading work.my_utils
+# Loading work.synch_reset_testbench_sv_unit
+# Loading work.synch_reset_testbench
+# Loading work.synch_reset
+# Loading work.pos_edge_detector
+# Loading work.reset_posedge_synchronisor
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+add wave -position insertpoint  \
+sim:/synch_reset_testbench/RS1/POD1/SIG \
+sim:/synch_reset_testbench/RS1/POD1/CLK \
+sim:/synch_reset_testbench/RS1/POD1/POSEDGE \
+sim:/synch_reset_testbench/RS1/POD1/prev_sig
+add wave -position insertpoint  \
+sim:/synch_reset_testbench/RS1/RPS1/CLK \
+sim:/synch_reset_testbench/RS1/RPS1/nRST \
+sim:/synch_reset_testbench/RS1/RPS1/POSEDGE \
+sim:/synch_reset_testbench/RS1/RPS1/SYNCnRESET \
+sim:/synch_reset_testbench/RS1/RPS1/state \
+sim:/synch_reset_testbench/RS1/RPS1/next_state \
+sim:/synch_reset_testbench/RS1/RPS1/sync_reset
+restart -f
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Compile of gen_50_hz_testbench.sv was successful with warnings.
+# Compile of generator_50_hz.sv was successful.
+# Compile of pos_edge_detector_testbench.sv was successful.
+# Compile of pos_edge_detector.sv was successful.
+# Compile of utils.sv was successful with warnings.
+# Compile of freq_divisor_testbench.sv was successful with warnings.
+# Compile of freq_divisor.sv was successful.
+# Compile of reset_posedge_synchronisor_testbench.sv was successful.
+# Compile of reset_posedge_synchronisor.sv was successful.
+# Compile of pll_32mhz_testbench.sv was successful with warnings.
+# Compile of PLL_32_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC_0002.v was successful.
+# Compile of PLL_32_MHZ_SRC_0002.v was successful.
+# Compile of pll_100mhz_testbench.sv was successful with warnings.
+# Compile of synch_reset.sv was successful.
+# Compile of ADC_Timing_Module.sv was successful.
+# Compile of ADC_Timing_module_testbench.sv was successful with warnings.
+# Compile of synch_reset_testbench.sv was successful with warnings.
+# 19 compiles, 0 failed with no errors.
+restart -f
+# Loading work.my_utils
+# Loading work.synch_reset_testbench_sv_unit
+# Loading work.synch_reset_testbench
+# Loading work.synch_reset
+# Loading work.pos_edge_detector
+# Loading work.reset_posedge_synchronisor
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+restart -f
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+restart -f
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+vsim -L altera_lnsim_ver work.synch_reset_testbench
+# End time: 17:01:40 on Feb 01,2020, Elapsed time: 0:13:53
+# Errors: 0, Warnings: 7
+# vsim -L altera_lnsim_ver work.synch_reset_testbench 
+# Start time: 17:01:40 on Feb 01,2020
+# Loading sv_std.std
+# Loading work.my_utils
+# Loading work.synch_reset_testbench_sv_unit
+# Loading work.synch_reset_testbench
+# Loading work.synch_reset
+# Loading work.pos_edge_detector
+# Loading work.reset_posedge_synchronisor
+add wave -position insertpoint  \
+sim:/synch_reset_testbench/FREQ_MHZ \
+sim:/synch_reset_testbench/clock_32mhz \
+sim:/synch_reset_testbench/clk_32mhz \
+sim:/synch_reset_testbench/nRST \
+sim:/synch_reset_testbench/GPS_PPS \
+sim:/synch_reset_testbench/sync_8mhz
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+add wave -position insertpoint  \
+sim:/synch_reset_testbench/RS1/POD1/SIG \
+sim:/synch_reset_testbench/RS1/POD1/CLK \
+sim:/synch_reset_testbench/RS1/POD1/POSEDGE \
+sim:/synch_reset_testbench/RS1/POD1/prev_sig
+restart -f
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+add wave -position insertpoint  \
+sim:/synch_reset_testbench/RS1/RPS1/CLK \
+sim:/synch_reset_testbench/RS1/RPS1/nRST \
+sim:/synch_reset_testbench/RS1/RPS1/POSEDGE \
+sim:/synch_reset_testbench/RS1/RPS1/SYNCnRESET \
+sim:/synch_reset_testbench/RS1/RPS1/state \
+sim:/synch_reset_testbench/RS1/RPS1/next_state \
+sim:/synch_reset_testbench/RS1/RPS1/sync_reset
+restart -f
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Compile of gen_50_hz_testbench.sv was successful with warnings.
+# Compile of generator_50_hz.sv was successful.
+# Compile of pos_edge_detector_testbench.sv was successful.
+# Compile of pos_edge_detector.sv was successful.
+# Compile of utils.sv was successful with warnings.
+# Compile of freq_divisor_testbench.sv was successful with warnings.
+# Compile of freq_divisor.sv was successful.
+# Compile of reset_posedge_synchronisor_testbench.sv was successful.
+# Compile of reset_posedge_synchronisor.sv was successful.
+# Compile of pll_32mhz_testbench.sv was successful with warnings.
+# Compile of PLL_32_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC_0002.v was successful.
+# Compile of PLL_32_MHZ_SRC_0002.v was successful.
+# Compile of pll_100mhz_testbench.sv was successful with warnings.
+# Compile of synch_reset.sv was successful.
+# Compile of ADC_Timing_Module.sv was successful.
+# Compile of ADC_Timing_module_testbench.sv was successful with warnings.
+# Compile of synch_reset_testbench.sv was successful with warnings.
+# 19 compiles, 0 failed with no errors.
+restart -f
+# Loading work.my_utils
+# Loading work.synch_reset_testbench_sv_unit
+# Loading work.synch_reset_testbench
+# Loading work.synch_reset
+# Loading work.pos_edge_detector
+# Loading work.reset_posedge_synchronisor
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Compile of gen_50_hz_testbench.sv was successful with warnings.
+# Compile of generator_50_hz.sv was successful.
+# Compile of pos_edge_detector_testbench.sv was successful.
+# Compile of pos_edge_detector.sv was successful.
+# Compile of utils.sv was successful with warnings.
+# Compile of freq_divisor_testbench.sv was successful with warnings.
+# Compile of freq_divisor.sv was successful.
+# Compile of reset_posedge_synchronisor_testbench.sv was successful.
+# Compile of reset_posedge_synchronisor.sv was successful.
+# Compile of pll_32mhz_testbench.sv was successful with warnings.
+# Compile of PLL_32_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC_0002.v was successful.
+# Compile of PLL_32_MHZ_SRC_0002.v was successful.
+# Compile of pll_100mhz_testbench.sv was successful with warnings.
+# Compile of synch_reset.sv was successful.
+# Compile of ADC_Timing_Module.sv was successful.
+# Compile of ADC_Timing_module_testbench.sv was successful with warnings.
+# Compile of synch_reset_testbench.sv was successful with warnings.
+# 19 compiles, 0 failed with no errors.
+restart -f
+# Loading work.my_utils
+# Loading work.synch_reset_testbench_sv_unit
+# Loading work.synch_reset_testbench
+# Loading work.synch_reset
+# Loading work.pos_edge_detector
+# Loading work.reset_posedge_synchronisor
+# ** Warning: (vsim-3839) /home/andrey/Programming/Quartus/ADC_Timing/testbenches/synch_reset_testbench.sv(9): Variable '/synch_reset_testbench/sync_8mhz', driven via a port connection, is multiply driven. See /home/andrey/Programming/Quartus/ADC_Timing/testbenches/synch_reset_testbench.sv(11).
+#    Time: 0 ns  Iteration: 0  Instance: /synch_reset_testbench File: /home/andrey/Programming/Quartus/ADC_Timing/testbenches/synch_reset_testbench.sv
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+vsim -L altera_lnsim_ver work.synch_reset_testbench
+# End time: 17:10:38 on Feb 01,2020, Elapsed time: 0:08:58
+# Errors: 0, Warnings: 6
+# vsim -L altera_lnsim_ver work.synch_reset_testbench 
+# Start time: 17:10:38 on Feb 01,2020
+# Loading sv_std.std
+# Loading work.my_utils
+# Loading work.synch_reset_testbench_sv_unit
+# Loading work.synch_reset_testbench
+# Loading work.synch_reset
+# Loading work.pos_edge_detector
+# Loading work.reset_posedge_synchronisor
+# ** Warning: (vsim-3839) /home/andrey/Programming/Quartus/ADC_Timing/testbenches/synch_reset_testbench.sv(9): Variable '/synch_reset_testbench/sync_8mhz', driven via a port connection, is multiply driven. See /home/andrey/Programming/Quartus/ADC_Timing/testbenches/synch_reset_testbench.sv(11).
+#    Time: 0 ns  Iteration: 0  Instance: /synch_reset_testbench File: /home/andrey/Programming/Quartus/ADC_Timing/testbenches/synch_reset_testbench.sv
+add wave -position insertpoint  \
+sim:/synch_reset_testbench/FREQ_MHZ \
+sim:/synch_reset_testbench/clock_32mhz \
+sim:/synch_reset_testbench/clk_32mhz \
+sim:/synch_reset_testbench/nRST \
+sim:/synch_reset_testbench/GPS_PPS \
+sim:/synch_reset_testbench/sync_8mhz
+# Compile of gen_50_hz_testbench.sv was successful with warnings.
+# Compile of generator_50_hz.sv was successful.
+# Compile of pos_edge_detector_testbench.sv was successful.
+# Compile of pos_edge_detector.sv was successful.
+# Compile of utils.sv was successful with warnings.
+# Compile of freq_divisor_testbench.sv was successful with warnings.
+# Compile of freq_divisor.sv was successful.
+# Compile of reset_posedge_synchronisor_testbench.sv was successful.
+# Compile of reset_posedge_synchronisor.sv was successful.
+# Compile of pll_32mhz_testbench.sv was successful with warnings.
+# Compile of PLL_32_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC_0002.v was successful.
+# Compile of PLL_32_MHZ_SRC_0002.v was successful.
+# Compile of pll_100mhz_testbench.sv was successful with warnings.
+# Compile of synch_reset.sv was successful.
+# Compile of ADC_Timing_Module.sv was successful.
+# Compile of ADC_Timing_module_testbench.sv was successful with warnings.
+# Compile of synch_reset_testbench.sv was successful with warnings.
+# 19 compiles, 0 failed with no errors.
+# Compile of gen_50_hz_testbench.sv was successful with warnings.
+# Compile of generator_50_hz.sv was successful.
+# Compile of pos_edge_detector_testbench.sv was successful.
+# Compile of pos_edge_detector.sv was successful.
+# Compile of utils.sv was successful with warnings.
+# Compile of freq_divisor_testbench.sv was successful with warnings.
+# Compile of freq_divisor.sv was successful.
+# Compile of reset_posedge_synchronisor_testbench.sv was successful.
+# Compile of reset_posedge_synchronisor.sv was successful.
+# Compile of pll_32mhz_testbench.sv was successful with warnings.
+# Compile of PLL_32_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC_0002.v was successful.
+# Compile of PLL_32_MHZ_SRC_0002.v was successful.
+# Compile of pll_100mhz_testbench.sv was successful with warnings.
+# Compile of synch_reset.sv was successful.
+# Compile of ADC_Timing_Module.sv was successful.
+# Compile of ADC_Timing_module_testbench.sv was successful with warnings.
+# Compile of synch_reset_testbench.sv was successful with warnings.
+# 19 compiles, 0 failed with no errors.
+add wave -position insertpoint /synch_reset_testbench/sync_8mhz
+# Compile of gen_50_hz_testbench.sv was successful with warnings.
+# Compile of generator_50_hz.sv was successful.
+# Compile of pos_edge_detector_testbench.sv was successful.
+# Compile of pos_edge_detector.sv was successful.
+# Compile of utils.sv was successful with warnings.
+# Compile of freq_divisor_testbench.sv was successful with warnings.
+# Compile of freq_divisor.sv was successful.
+# Compile of reset_posedge_synchronisor_testbench.sv was successful.
+# Compile of reset_posedge_synchronisor.sv was successful.
+# Compile of pll_32mhz_testbench.sv was successful with warnings.
+# Compile of PLL_32_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC_0002.v was successful.
+# Compile of PLL_32_MHZ_SRC_0002.v was successful.
+# Compile of pll_100mhz_testbench.sv was successful with warnings.
+# Compile of synch_reset.sv was successful.
+# Compile of ADC_Timing_Module.sv was successful.
+# Compile of ADC_Timing_module_testbench.sv was successful with warnings.
+# Compile of synch_reset_testbench.sv was successful with warnings.
+# 19 compiles, 0 failed with no errors.
+add wave -position insertpoint  \
+sim:/synch_reset_testbench/FREQ_MHZ \
+sim:/synch_reset_testbench/clock_32mhz \
+sim:/synch_reset_testbench/clk_32mhz \
+sim:/synch_reset_testbench/nRST \
+sim:/synch_reset_testbench/GPS_PPS \
+sim:/synch_reset_testbench/sync_8mhz
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+add wave -position insertpoint  \
+sim:/synch_reset_testbench/RS1/RPS1/CLK \
+sim:/synch_reset_testbench/RS1/RPS1/nRST \
+sim:/synch_reset_testbench/RS1/RPS1/POSEDGE \
+sim:/synch_reset_testbench/RS1/RPS1/SYNCnRESET \
+sim:/synch_reset_testbench/RS1/RPS1/state \
+sim:/synch_reset_testbench/RS1/RPS1/next_state \
+sim:/synch_reset_testbench/RS1/RPS1/sync_reset
+# Compile of gen_50_hz_testbench.sv was successful with warnings.
+# Compile of generator_50_hz.sv was successful.
+# Compile of pos_edge_detector_testbench.sv was successful.
+# Compile of pos_edge_detector.sv was successful.
+# Compile of utils.sv was successful with warnings.
+# Compile of freq_divisor_testbench.sv was successful with warnings.
+# Compile of freq_divisor.sv was successful.
+# Compile of reset_posedge_synchronisor_testbench.sv was successful.
+# Compile of reset_posedge_synchronisor.sv was successful.
+# Compile of pll_32mhz_testbench.sv was successful with warnings.
+# Compile of PLL_32_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC_0002.v was successful.
+# Compile of PLL_32_MHZ_SRC_0002.v was successful.
+# Compile of pll_100mhz_testbench.sv was successful with warnings.
+# Compile of synch_reset.sv was successful.
+# Compile of ADC_Timing_Module.sv was successful.
+# Compile of ADC_Timing_module_testbench.sv was successful with warnings.
+# Compile of synch_reset_testbench.sv was successful with warnings.
+# 19 compiles, 0 failed with no errors.
+add wave -position insertpoint /synch_reset_testbench/RS1/SYNCH_nRST
+restart -f
+# Loading work.my_utils
+# Loading work.synch_reset_testbench_sv_unit
+# Loading work.synch_reset_testbench
+# Loading work.synch_reset
+# Loading work.pos_edge_detector
+# Loading work.reset_posedge_synchronisor
+# ** Error: (vsim-3063) /home/andrey/Programming/Quartus/ADC_Timing/testbenches/synch_reset_testbench.sv(11): Port 'SYNCH_nRESET' not found in the connected module (4th connection).
+#    Time: 0 ns  Iteration: 0  Instance: /synch_reset_testbench/RS1 File: /home/andrey/Programming/Quartus/ADC_Timing/src/synch_reset.sv
+vsim -L altera_lnsim_ver work.synch_reset_testbench
+# vsim -L altera_lnsim_ver work.synch_reset_testbench 
+# Start time: 17:10:38 on Feb 01,2020
+# Loading sv_std.std
+# Loading work.my_utils
+# Loading work.synch_reset_testbench_sv_unit
+# Loading work.synch_reset_testbench
+# Loading work.synch_reset
+# Loading work.pos_edge_detector
+# Loading work.reset_posedge_synchronisor
+# ** Error: (vsim-3063) /home/andrey/Programming/Quartus/ADC_Timing/testbenches/synch_reset_testbench.sv(11): Port 'SYNCH_nRESET' not found in the connected module (4th connection).
+#    Time: 0 ns  Iteration: 0  Instance: /synch_reset_testbench/RS1 File: /home/andrey/Programming/Quartus/ADC_Timing/src/synch_reset.sv
+# Error loading design
+# End time: 17:13:30 on Feb 01,2020, Elapsed time: 0:02:52
+# Errors: 2, Warnings: 2
+# Compile of gen_50_hz_testbench.sv was successful with warnings.
+# Compile of generator_50_hz.sv was successful.
+# Compile of pos_edge_detector_testbench.sv was successful.
+# Compile of pos_edge_detector.sv was successful.
+# Compile of utils.sv was successful with warnings.
+# Compile of freq_divisor_testbench.sv was successful with warnings.
+# Compile of freq_divisor.sv was successful.
+# Compile of reset_posedge_synchronisor_testbench.sv was successful.
+# Compile of reset_posedge_synchronisor.sv was successful.
+# Compile of pll_32mhz_testbench.sv was successful with warnings.
+# Compile of PLL_32_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC_0002.v was successful.
+# Compile of PLL_32_MHZ_SRC_0002.v was successful.
+# Compile of pll_100mhz_testbench.sv was successful with warnings.
+# Compile of synch_reset.sv was successful.
+# Compile of ADC_Timing_Module.sv was successful.
+# Compile of ADC_Timing_module_testbench.sv was successful with warnings.
+# Compile of synch_reset_testbench.sv was successful with warnings.
+# 19 compiles, 0 failed with no errors.
+# Compile of gen_50_hz_testbench.sv was successful with warnings.
+# Compile of generator_50_hz.sv was successful.
+# Compile of pos_edge_detector_testbench.sv was successful.
+# Compile of pos_edge_detector.sv was successful.
+# Compile of utils.sv was successful with warnings.
+# Compile of freq_divisor_testbench.sv was successful with warnings.
+# Compile of freq_divisor.sv was successful.
+# Compile of reset_posedge_synchronisor_testbench.sv was successful.
+# Compile of reset_posedge_synchronisor.sv was successful.
+# Compile of pll_32mhz_testbench.sv was successful with warnings.
+# Compile of PLL_32_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC_0002.v was successful.
+# Compile of PLL_32_MHZ_SRC_0002.v was successful.
+# Compile of pll_100mhz_testbench.sv was successful with warnings.
+# Compile of synch_reset.sv was successful.
+# Compile of ADC_Timing_Module.sv was successful.
+# Compile of ADC_Timing_module_testbench.sv was successful with warnings.
+# Compile of synch_reset_testbench.sv was successful with warnings.
+# 19 compiles, 0 failed with no errors.
+vsim -L altera_lnsim_ver work.synch_reset_testbench
+# vsim -L altera_lnsim_ver work.synch_reset_testbench 
+# Start time: 17:14:35 on Feb 01,2020
+# Loading sv_std.std
+# Loading work.my_utils
+# Loading work.synch_reset_testbench_sv_unit
+# Loading work.synch_reset_testbench
+# Loading work.synch_reset
+# Loading work.pos_edge_detector
+# Loading work.reset_posedge_synchronisor
+add wave -position insertpoint  \
+sim:/synch_reset_testbench/FREQ_MHZ \
+sim:/synch_reset_testbench/clock_32mhz \
+sim:/synch_reset_testbench/clk_32mhz \
+sim:/synch_reset_testbench/nRST \
+sim:/synch_reset_testbench/GPS_PPS \
+sim:/synch_reset_testbench/sync_8mhz
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Compile of gen_50_hz_testbench.sv was successful with warnings.
+# Compile of generator_50_hz.sv was successful.
+# Compile of pos_edge_detector_testbench.sv was successful.
+# Compile of pos_edge_detector.sv was successful.
+# Compile of utils.sv was successful with warnings.
+# Compile of freq_divisor_testbench.sv was successful with warnings.
+# Compile of freq_divisor.sv was successful.
+# Compile of reset_posedge_synchronisor_testbench.sv was successful.
+# Compile of reset_posedge_synchronisor.sv was successful.
+# Compile of pll_32mhz_testbench.sv was successful with warnings.
+# Compile of PLL_32_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC_0002.v was successful.
+# Compile of PLL_32_MHZ_SRC_0002.v was successful.
+# Compile of pll_100mhz_testbench.sv was successful with warnings.
+# Compile of synch_reset.sv was successful.
+# Compile of ADC_Timing_Module.sv was successful.
+# Compile of ADC_Timing_module_testbench.sv was successful with warnings.
+# Compile of synch_reset_testbench.sv was successful with warnings.
+# 19 compiles, 0 failed with no errors.
+run
+restart -f
+# Loading work.my_utils
+# Loading work.synch_reset_testbench_sv_unit
+# Loading work.synch_reset_testbench
+# Loading work.synch_reset
+# Loading work.pos_edge_detector
+# Loading work.reset_posedge_synchronisor
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Compile of gen_50_hz_testbench.sv was successful with warnings.
+# Compile of generator_50_hz.sv was successful.
+# Compile of pos_edge_detector_testbench.sv was successful.
+# Compile of pos_edge_detector.sv was successful.
+# Compile of utils.sv was successful with warnings.
+# Compile of freq_divisor_testbench.sv was successful with warnings.
+# Compile of freq_divisor.sv was successful.
+# Compile of reset_posedge_synchronisor_testbench.sv was successful.
+# Compile of reset_posedge_synchronisor.sv was successful.
+# Compile of pll_32mhz_testbench.sv was successful with warnings.
+# Compile of PLL_32_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC_0002.v was successful.
+# Compile of PLL_32_MHZ_SRC_0002.v was successful.
+# Compile of pll_100mhz_testbench.sv was successful with warnings.
+# Compile of synch_reset.sv was successful.
+# Compile of ADC_Timing_Module.sv was successful.
+# Compile of ADC_Timing_module_testbench.sv was successful with warnings.
+# Compile of synch_reset_testbench.sv was successful with warnings.
+# 19 compiles, 0 failed with no errors.
+vsim -L altera_lnsim_ver work.adc_timing_module_testbench
+# End time: 17:16:27 on Feb 01,2020, Elapsed time: 0:01:52
+# Errors: 0, Warnings: 2
+# vsim -L altera_lnsim_ver work.adc_timing_module_testbench 
+# Start time: 17:16:27 on Feb 01,2020
+# Loading sv_std.std
+# Loading work.my_utils
+# Loading work.ADC_Timing_module_testbench_sv_unit
+# Loading work.adc_timing_module_testbench
+# Loading work.ADC_Timing_module
+# Loading work.PPL_100_MHZ_SRC
+# Loading work.PPL_100_MHZ_SRC_0002
+# Loading altera_lnsim_ver.altera_lnsim_functions
+# Loading altera_lnsim_ver.altera_pll
+# Loading work.synch_reset
+# Loading work.pos_edge_detector
+# Loading work.reset_posedge_synchronisor
+# Loading work.freq_divisor
+# Loading work.pulse_50_hz
+# Loading altera_lnsim_ver.dps_extra_kick
+# Loading altera_lnsim_ver.dprio_init
+# Loading altera_lnsim_ver.altera_generic_pll_functions
+# Loading altera_lnsim_ver.generic_pll
+# ** Warning: (vsim-3017) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Too few port connections. Expected 26, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /adc_timing_module_testbench/T1/pll_100_mhz/ppl_100_mhz_src_inst/altera_pll_i File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_lnsim.sv
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'refclk1'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'phase_en'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'updn'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'num_phase_shifts'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'cntsel'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'reconfig_to_pll'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'extswitch'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'adjpllin'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'cclk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'phase_done'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'reconfig_from_pll'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'activeclk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'phout'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'lvds_clk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'loaden'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'extclk_out'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'cascade_out'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'zdbfbclk'.
+add wave -position insertpoint  \
+sim:/adc_timing_module_testbench/BASE_FREQ_MHZ \
+sim:/adc_timing_module_testbench/clock_100MHz \
+sim:/adc_timing_module_testbench/nrst \
+sim:/adc_timing_module_testbench/clk \
+sim:/adc_timing_module_testbench/gps_pps \
+sim:/adc_timing_module_testbench/mclk \
+sim:/adc_timing_module_testbench/pulse_50_Hz
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (adc_timing_module_testbench.T1.pll_100_mhz.ppl_100_mhz_src_inst.altera_pll_i.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = adc_timing_module_testbench.T1.pll_100_mhz.ppl_100_mhz_src_inst.altera_pll_i.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 100.0 MHz
+# Info: output_clock_frequency = 32.768 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 15258.789062
+# Info: output_clock_low_period = 15258.789062
+restart -f
+# ** Warning: (vsim-3017) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Too few port connections. Expected 26, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /adc_timing_module_testbench/T1/pll_100_mhz/ppl_100_mhz_src_inst/altera_pll_i File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_lnsim.sv
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'refclk1'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'phase_en'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'updn'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'num_phase_shifts'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'cntsel'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'reconfig_to_pll'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'extswitch'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'adjpllin'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'cclk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'phase_done'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'reconfig_from_pll'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'activeclk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'phout'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'lvds_clk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'loaden'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'extclk_out'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'cascade_out'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'zdbfbclk'.
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (adc_timing_module_testbench.T1.pll_100_mhz.ppl_100_mhz_src_inst.altera_pll_i.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = adc_timing_module_testbench.T1.pll_100_mhz.ppl_100_mhz_src_inst.altera_pll_i.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 100.0 MHz
+# Info: output_clock_frequency = 32.768 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 15258.789062
+# Info: output_clock_low_period = 15258.789062
+run
+restart -f
+# ** Warning: (vsim-3017) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Too few port connections. Expected 26, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /adc_timing_module_testbench/T1/pll_100_mhz/ppl_100_mhz_src_inst/altera_pll_i File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_lnsim.sv
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'refclk1'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'phase_en'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'updn'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'num_phase_shifts'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'cntsel'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'reconfig_to_pll'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'extswitch'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'adjpllin'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'cclk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'phase_done'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'reconfig_from_pll'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'activeclk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'phout'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'lvds_clk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'loaden'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'extclk_out'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'cascade_out'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'zdbfbclk'.
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (adc_timing_module_testbench.T1.pll_100_mhz.ppl_100_mhz_src_inst.altera_pll_i.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = adc_timing_module_testbench.T1.pll_100_mhz.ppl_100_mhz_src_inst.altera_pll_i.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 100.0 MHz
+# Info: output_clock_frequency = 32.768 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 15258.789062
+# Info: output_clock_low_period = 15258.789062
+# Compile of gen_50_hz_testbench.sv was successful with warnings.
+# Compile of generator_50_hz.sv was successful.
+# Compile of pos_edge_detector_testbench.sv was successful.
+# Compile of pos_edge_detector.sv was successful.
+# Compile of utils.sv was successful with warnings.
+# Compile of freq_divisor_testbench.sv was successful with warnings.
+# Compile of freq_divisor.sv was successful.
+# Compile of reset_posedge_synchronisor_testbench.sv was successful.
+# Compile of reset_posedge_synchronisor.sv was successful.
+# Compile of pll_32mhz_testbench.sv was successful with warnings.
+# Compile of PLL_32_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC.v was successful.
+# Compile of PPL_100_MHZ_SRC_0002.v was successful.
+# Compile of PLL_32_MHZ_SRC_0002.v was successful.
+# Compile of pll_100mhz_testbench.sv was successful with warnings.
+# Compile of synch_reset.sv was successful.
+# Compile of ADC_Timing_Module.sv was successful.
+# Compile of ADC_Timing_module_testbench.sv was successful with warnings.
+# Compile of synch_reset_testbench.sv was successful with warnings.
+# 19 compiles, 0 failed with no errors.
+add wave -position insertpoint  \
+sim:/adc_timing_module_testbench/BASE_FREQ_MHZ \
+sim:/adc_timing_module_testbench/clock_100MHz \
+sim:/adc_timing_module_testbench/nrst \
+sim:/adc_timing_module_testbench/clk \
+sim:/adc_timing_module_testbench/gps_pps \
+sim:/adc_timing_module_testbench/mclk \
+sim:/adc_timing_module_testbench/pulse_50_Hz
+restart -f
+# Loading work.my_utils
+# Loading work.ADC_Timing_module_testbench_sv_unit
+# Loading work.adc_timing_module_testbench
+# Loading work.ADC_Timing_module
+# Loading work.PPL_100_MHZ_SRC
+# Loading work.PPL_100_MHZ_SRC_0002
+# Loading work.synch_reset
+# Loading work.pos_edge_detector
+# Loading work.reset_posedge_synchronisor
+# Loading work.freq_divisor
+# Loading work.pulse_50_hz
+# ** Warning: (vsim-3017) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Too few port connections. Expected 26, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /adc_timing_module_testbench/T1/pll_100_mhz/ppl_100_mhz_src_inst/altera_pll_i File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_lnsim.sv
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'refclk1'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'phase_en'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'updn'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'num_phase_shifts'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'cntsel'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'reconfig_to_pll'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'extswitch'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'adjpllin'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'cclk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'phase_done'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'reconfig_from_pll'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'activeclk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'phout'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'lvds_clk'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'loaden'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'extclk_out'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'cascade_out'.
+# ** Warning: (vsim-3722) /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v(81): [TFMPC] - Missing connection for port 'zdbfbclk'.
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (adc_timing_module_testbench.T1.pll_100_mhz.ppl_100_mhz_src_inst.altera_pll_i.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = adc_timing_module_testbench.T1.pll_100_mhz.ppl_100_mhz_src_inst.altera_pll_i.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 100.0 MHz
+# Info: output_clock_frequency = 32.768 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 15258.789062
+# Info: output_clock_low_period = 15258.789062

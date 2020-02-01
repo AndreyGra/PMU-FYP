@@ -1,0 +1,159 @@
+/home/andrey/Programming/Quartus/ADC_Timing/ADC_Timing_Module.sv {1 {vlog -work work -sv -stats=none /home/andrey/Programming/Quartus/ADC_Timing/ADC_Timing_Module.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ADC_Timing_module
+
+Top level modules:
+	ADC_Timing_module
+
+} {} {}} /home/andrey/Programming/Quartus/ADC_Timing/testbenches/pos_edge_detector_testbench.sv {1 {vlog -work work -sv -stats=none /home/andrey/Programming/Quartus/ADC_Timing/testbenches/pos_edge_detector_testbench.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling package pos_edge_detector_testbench_sv_unit
+-- Importing package my_utils
+-- Compiling module pos_edge_detector_testbench
+
+Top level modules:
+	pos_edge_detector_testbench
+
+} {} {}} /home/andrey/Programming/Quartus/ADC_Timing/src/synch_reset.sv {1 {vlog -work work -sv -stats=none /home/andrey/Programming/Quartus/ADC_Timing/src/synch_reset.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module synch_reset
+
+Top level modules:
+	synch_reset
+
+} {} {}} /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PLL_32_MHZ_SRC.v {1 {vlog -work work -stats=none /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PLL_32_MHZ_SRC.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module PLL_32_MHZ_SRC
+
+Top level modules:
+	PLL_32_MHZ_SRC
+
+} {} {}} /home/andrey/Programming/Quartus/ADC_Timing/src/reset_posedge_synchronisor.sv {1 {vlog -work work -sv -stats=none /home/andrey/Programming/Quartus/ADC_Timing/src/reset_posedge_synchronisor.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module reset_posedge_synchronisor
+
+Top level modules:
+	reset_posedge_synchronisor
+
+} {} {}} /home/andrey/Programming/Quartus/ADC_Timing/testbenches/utils.sv {2 {vlog -work work -sv -stats=none /home/andrey/Programming/Quartus/ADC_Timing/testbenches/utils.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+** Warning: /home/andrey/Programming/Quartus/ADC_Timing/testbenches/utils.sv(1): (vlog-2283) Extra semicolon in $unit (global) scope.
+** Warning: /home/andrey/Programming/Quartus/ADC_Timing/testbenches/utils.sv(30): (vlog-2284) Empty $unit scope found.
+-- Compiling package utils_sv_unit
+-- Compiling package my_utils
+
+Top level modules:
+	--none--
+
+} {} {}} /home/andrey/Programming/Quartus/ADC_Timing/src/freq_divisor.sv {1 {vlog -work work -sv -stats=none /home/andrey/Programming/Quartus/ADC_Timing/src/freq_divisor.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module freq_divisor
+
+Top level modules:
+	freq_divisor
+
+} {} {}} /home/andrey/Programming/Quartus/ADC_Timing/testbenches/synch_reset_testbench.sv {2 {vlog -work work -sv -stats=none /home/andrey/Programming/Quartus/ADC_Timing/testbenches/synch_reset_testbench.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+** Warning: /home/andrey/Programming/Quartus/ADC_Timing/testbenches/synch_reset_testbench.sv(1): (vlog-2283) Extra semicolon in $unit (global) scope.
+-- Compiling package synch_reset_testbench_sv_unit
+-- Importing package my_utils
+-- Compiling module synch_reset_testbench
+
+Top level modules:
+	synch_reset_testbench
+
+} {} {}} /home/andrey/Programming/Quartus/ADC_Timing/testbenches/pll_100mhz_testbench.sv {2 {vlog -work work -sv -stats=none /home/andrey/Programming/Quartus/ADC_Timing/testbenches/pll_100mhz_testbench.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+** Warning: /home/andrey/Programming/Quartus/ADC_Timing/testbenches/pll_100mhz_testbench.sv(1): (vlog-2283) Extra semicolon in $unit (global) scope.
+-- Compiling package pll_100mhz_testbench_sv_unit
+-- Importing package my_utils
+-- Compiling module pll_100_MHZ_testbench
+
+Top level modules:
+	pll_100_MHZ_testbench
+
+} {} {}} /home/andrey/Programming/Quartus/ADC_Timing/testbenches/gen_50_hz_testbench.sv {2 {vlog -work work -sv -stats=none /home/andrey/Programming/Quartus/ADC_Timing/testbenches/gen_50_hz_testbench.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+** Warning: /home/andrey/Programming/Quartus/ADC_Timing/testbenches/gen_50_hz_testbench.sv(1): (vlog-2283) Extra semicolon in $unit (global) scope.
+-- Compiling package gen_50_hz_testbench_sv_unit
+-- Importing package my_utils
+-- Compiling module generator_50_hz_testbench
+
+Top level modules:
+	generator_50_hz_testbench
+
+} {} {}} /home/andrey/Programming/Quartus/ADC_Timing/src/pos_edge_detector.sv {1 {vlog -work work -sv -stats=none /home/andrey/Programming/Quartus/ADC_Timing/src/pos_edge_detector.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module pos_edge_detector
+
+Top level modules:
+	pos_edge_detector
+
+} {} {}} /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC.v {1 {vlog -work work -stats=none /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module PPL_100_MHZ_SRC
+
+Top level modules:
+	PPL_100_MHZ_SRC
+
+} {} {}} /home/andrey/Programming/Quartus/ADC_Timing/testbenches/reset_posedge_synchronisor_testbench.sv {1 {vlog -work work -sv -stats=none /home/andrey/Programming/Quartus/ADC_Timing/testbenches/reset_posedge_synchronisor_testbench.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling package reset_posedge_synchronisor_testbench_sv_unit
+-- Importing package my_utils
+-- Compiling module reset_posedge_synchronisor_testbench
+
+Top level modules:
+	reset_posedge_synchronisor_testbench
+
+} {} {}} /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PLL_32_MHZ_SRC/PLL_32_MHZ_SRC_0002.v {1 {vlog -work work -stats=none /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PLL_32_MHZ_SRC/PLL_32_MHZ_SRC_0002.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module PLL_32_MHZ_SRC_0002
+
+Top level modules:
+	PLL_32_MHZ_SRC_0002
+
+} {} {}} /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v {1 {vlog -work work -stats=none /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module PPL_100_MHZ_SRC_0002
+
+Top level modules:
+	PPL_100_MHZ_SRC_0002
+
+} {} {}} /home/andrey/Programming/Quartus/ADC_Timing/testbenches/pll_32mhz_testbench.sv {2 {vlog -work work -sv -stats=none /home/andrey/Programming/Quartus/ADC_Timing/testbenches/pll_32mhz_testbench.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+** Warning: /home/andrey/Programming/Quartus/ADC_Timing/testbenches/pll_32mhz_testbench.sv(1): (vlog-2283) Extra semicolon in $unit (global) scope.
+-- Compiling package pll_32mhz_testbench_sv_unit
+-- Importing package my_utils
+-- Compiling module pll_32_MHZ_testbench
+
+Top level modules:
+	pll_32_MHZ_testbench
+
+} {} {}} /home/andrey/Programming/Quartus/ADC_Timing/testbenches/ADC_Timing_module_testbench.sv {2 {vlog -work work -sv -stats=none /home/andrey/Programming/Quartus/ADC_Timing/testbenches/ADC_Timing_module_testbench.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+** Warning: /home/andrey/Programming/Quartus/ADC_Timing/testbenches/ADC_Timing_module_testbench.sv(1): (vlog-2283) Extra semicolon in $unit (global) scope.
+-- Compiling package ADC_Timing_module_testbench_sv_unit
+-- Importing package my_utils
+-- Compiling module adc_timing_module_testbench
+
+Top level modules:
+	adc_timing_module_testbench
+
+} {} {}} /home/andrey/Programming/Quartus/ADC_Timing/testbenches/freq_divisor_testbench.sv {2 {vlog -work work -sv -stats=none /home/andrey/Programming/Quartus/ADC_Timing/testbenches/freq_divisor_testbench.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+** Warning: /home/andrey/Programming/Quartus/ADC_Timing/testbenches/freq_divisor_testbench.sv(1): (vlog-2283) Extra semicolon in $unit (global) scope.
+-- Compiling package freq_divisor_testbench_sv_unit
+-- Importing package my_utils
+-- Compiling module freq_divisor_testbench
+
+Top level modules:
+	freq_divisor_testbench
+
+} {} {}} /home/andrey/Programming/Quartus/ADC_Timing/src/generator_50_hz.sv {1 {vlog -work work -sv -stats=none /home/andrey/Programming/Quartus/ADC_Timing/src/generator_50_hz.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module pulse_50_hz
+
+Top level modules:
+	pulse_50_hz
+
+} {} {}}
