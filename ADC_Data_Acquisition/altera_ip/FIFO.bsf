@@ -26,8 +26,8 @@ refer to the applicable agreement for further details.
 	(port
 		(pt 0 48)
 		(input)
-		(text "data[15..0]" (rect 0 0 61 13)(font "Arial" (font_size 8)))
-		(text "data[15..0]" (rect 20 42 72 54)(font "Arial" (font_size 8)))
+		(text "data[63..0]" (rect 0 0 61 13)(font "Arial" (font_size 8)))
+		(text "data[63..0]" (rect 20 42 72 54)(font "Arial" (font_size 8)))
 		(line (pt 0 48)(pt 16 48)(line_width 3))
 	)
 	(port
@@ -75,8 +75,8 @@ refer to the applicable agreement for further details.
 	(port
 		(pt 176 112)
 		(output)
-		(text "q[15..0]" (rect 0 0 43 13)(font "Arial" (font_size 8)))
-		(text "q[15..0]" (rect 121 106 158 118)(font "Arial" (font_size 8)))
+		(text "q[63..0]" (rect 0 0 43 13)(font "Arial" (font_size 8)))
+		(text "q[63..0]" (rect 121 106 158 118)(font "Arial" (font_size 8)))
 		(line (pt 176 112)(pt 160 112)(line_width 3))
 	)
 	(port
@@ -94,7 +94,7 @@ refer to the applicable agreement for further details.
 		(line (pt 176 152)(pt 160 152))
 	)
 	(drawing
-		(text "16 bits x 4 words" (rect 89 174 250 358)(font "Arial" ))
+		(text "64 bits x 4 words" (rect 89 174 251 358)(font "Arial" ))
 		(line (pt 16 100)(pt 160 100))
 		(line (pt 16 164)(pt 160 164))
 		(line (pt 16 32)(pt 160 32))
