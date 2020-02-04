@@ -1,21 +1,27 @@
+
+
 module FIFO_testbench;
 
     logic clear;
-    logic rdreq, rdclk, [63:0] rd_data, rdfull;
-    logic wrreq, wrclk, [63:0] wr_data, wfull;
+    logic rdreq, rdclk, [63:0] rd_data, rdfull,rdempty;
+    logic wrreq, wrclk, [63:0] wr_data, wfull, wrempty;
 
     FIFO	FIFO_inst (
 	.data ( wr_data ),
-	.rdclk ( rdclk_sig ),
-	.rdreq ( rdreq_sig ),
-	.wrclk ( wrclk_sig ),
-	.wrreq ( wrreq_sig ),
-	.q ( q_sig ),
-	.rdempty ( rdempty_sig ),
-	.rdfull ( rdfull_sig ),
-	.wrempty ( wrempty_sig ),
-	.wrfull ( wrfull_sig )
+	.rdclk ( rdclk ),
+	.rdreq ( rdreq ),
+	.wrclk ( wrclk ),
+	.wrreq ( wrreq ),
+	.q ( rd_data ),
+	.rdempty ( rdempty),
+	.rdfull ( rdfull ),
+	.wrempty ( wrempty ),
+	.wrfull ( wrfull )
 	);
 
+    initial begin
+        
+        
+    end
 
 endmodule
