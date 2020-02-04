@@ -96,14 +96,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	PPL_100_MHZ_SRC
 
-} {} {}} /home/andrey/Programming/Quartus/ADC_Timing/testbenches/reset_posedge_synchronisor_testbench.sv {1 {vlog -work work -sv -stats=none /home/andrey/Programming/Quartus/ADC_Timing/testbenches/reset_posedge_synchronisor_testbench.sv
+} {} {}} /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v {1 {vlog -work work -stats=none /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling package reset_posedge_synchronisor_testbench_sv_unit
--- Importing package my_utils
--- Compiling module reset_posedge_synchronisor_testbench
+-- Compiling module PPL_100_MHZ_SRC_0002
 
 Top level modules:
-	reset_posedge_synchronisor_testbench
+	PPL_100_MHZ_SRC_0002
 
 } {} {}} /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PLL_32_MHZ_SRC/PLL_32_MHZ_SRC_0002.v {1 {vlog -work work -stats=none /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PLL_32_MHZ_SRC/PLL_32_MHZ_SRC_0002.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -112,12 +110,14 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	PLL_32_MHZ_SRC_0002
 
-} {} {}} /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v {1 {vlog -work work -stats=none /home/andrey/Programming/Quartus/ADC_Timing/altera_ip/PPL_100_MHZ_SRC/PPL_100_MHZ_SRC_0002.v
+} {} {}} /home/andrey/Programming/Quartus/ADC_Timing/testbenches/reset_posedge_synchronisor_testbench.sv {1 {vlog -work work -sv -stats=none /home/andrey/Programming/Quartus/ADC_Timing/testbenches/reset_posedge_synchronisor_testbench.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module PPL_100_MHZ_SRC_0002
+-- Compiling package reset_posedge_synchronisor_testbench_sv_unit
+-- Importing package my_utils
+-- Compiling module reset_posedge_synchronisor_testbench
 
 Top level modules:
-	PPL_100_MHZ_SRC_0002
+	reset_posedge_synchronisor_testbench
 
 } {} {}} /home/andrey/Programming/Quartus/ADC_Timing/testbenches/pll_32mhz_testbench.sv {2 {vlog -work work -sv -stats=none /home/andrey/Programming/Quartus/ADC_Timing/testbenches/pll_32mhz_testbench.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -139,6 +139,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	adc_timing_module_testbench
 
+} {} {}} /home/andrey/Programming/Quartus/ADC_Timing/src/generator_50_hz.sv {1 {vlog -work work -sv -stats=none /home/andrey/Programming/Quartus/ADC_Timing/src/generator_50_hz.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module pulse_50_hz
+
+Top level modules:
+	pulse_50_hz
+
 } {} {}} /home/andrey/Programming/Quartus/ADC_Timing/testbenches/freq_divisor_testbench.sv {2 {vlog -work work -sv -stats=none /home/andrey/Programming/Quartus/ADC_Timing/testbenches/freq_divisor_testbench.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 ** Warning: /home/andrey/Programming/Quartus/ADC_Timing/testbenches/freq_divisor_testbench.sv(1): (vlog-2283) Extra semicolon in $unit (global) scope.
@@ -148,12 +155,5 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 
 Top level modules:
 	freq_divisor_testbench
-
-} {} {}} /home/andrey/Programming/Quartus/ADC_Timing/src/generator_50_hz.sv {1 {vlog -work work -sv -stats=none /home/andrey/Programming/Quartus/ADC_Timing/src/generator_50_hz.sv
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module pulse_50_hz
-
-Top level modules:
-	pulse_50_hz
 
 } {} {}}

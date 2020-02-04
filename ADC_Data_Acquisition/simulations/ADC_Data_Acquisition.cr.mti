@@ -1,0 +1,42 @@
+/home/andrey/FYP/PMU-FYP/ADC_Data_Acquisition/src/counter_n_bits.sv {1 {vlog -work work -sv -stats=none /home/andrey/FYP/PMU-FYP/ADC_Data_Acquisition/src/counter_n_bits.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module counter_n_bits
+
+Top level modules:
+	counter_n_bits
+
+} {} {}} /home/andrey/FYP/PMU-FYP/ADC_Data_Acquisition/testbenches/shift_reg_4x64_testbench.sv {1 {vlog -work work -sv -stats=none /home/andrey/FYP/PMU-FYP/ADC_Data_Acquisition/testbenches/shift_reg_4x64_testbench.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module shift_reg_4x64_testbench
+
+Top level modules:
+	shift_reg_4x64_testbench
+
+} {} {}} /home/andrey/FYP/PMU-FYP/ADC_Data_Acquisition/testbenches/adc_data_input_testbench.sv {2 {vlog -work work -sv -stats=none /home/andrey/FYP/PMU-FYP/ADC_Data_Acquisition/testbenches/adc_data_input_testbench.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+** Warning: /home/andrey/FYP/PMU-FYP/ADC_Data_Acquisition/testbenches/adc_data_input_testbench.sv(1): (vlog-2283) Extra semicolon in $unit (global) scope.
+-- Compiling package adc_data_input_testbench_sv_unit
+-- Importing package my_utils
+-- Compiling module adc_data_input_testbench
+
+Top level modules:
+	adc_data_input_testbench
+
+} {} {}} /home/andrey/FYP/PMU-FYP/ADC_Data_Acquisition/src/shift_reg_4x64.sv {1 {vlog -work work -sv -stats=none /home/andrey/FYP/PMU-FYP/ADC_Data_Acquisition/src/shift_reg_4x64.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module shift_reg_4x64
+
+Top level modules:
+	shift_reg_4x64
+
+} {} {}} /home/andrey/FYP/PMU-FYP/utilities/src/utils.sv {2 {vlog -work work -sv -stats=none /home/andrey/FYP/PMU-FYP/utilities/src/utils.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+** Warning: /home/andrey/FYP/PMU-FYP/utilities/src/utils.sv(1): (vlog-2283) Extra semicolon in $unit (global) scope.
+** Warning: /home/andrey/FYP/PMU-FYP/utilities/src/utils.sv(30): (vlog-2284) Empty $unit scope found.
+-- Compiling package utils_sv_unit
+-- Compiling package my_utils
+
+Top level modules:
+	--none--
+
+} {} {}}
