@@ -4,6 +4,7 @@ module adc_data_input(input  MCLK, nRST, nSYNC_IN, nDRDY, [3:0] DOUT,
     enum int unsigned { S0 = 1, S1 = 2, S2 = 4, S3 = 8, S4 = 16} state, next_state;
     
     logic [63:0] buffer[4];
+	logic [63:0] data[4];
 	logic [5:0]  count;
     logic counter_nRST, data_ready;
 
