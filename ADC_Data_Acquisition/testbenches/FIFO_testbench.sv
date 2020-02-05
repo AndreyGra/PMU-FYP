@@ -1,15 +1,6 @@
-
 `timescale 1ns/1ns;
+import fifo_utilities::fifo_signals_t;
 module FIFO_testbench;
-
-    typedef struct {
-        logic clk;
-        logic req;
-        logic full;
-        logic empty;
-        logic clear;
-        logic [63:0] data;
-    } fifo_signals_t;
 
     fifo_signals_t reader, writer;
 

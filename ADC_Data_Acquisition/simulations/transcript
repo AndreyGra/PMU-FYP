@@ -964,3 +964,325 @@ restart -f
 # Loading work.shift_reg_4x64_PISO
 run
 # ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+quit -sim
+# End time: 16:11:20 on Feb 05,2020, Elapsed time: 0:22:12
+# Errors: 0, Warnings: 10
+# Compile of adc_data_input.sv was successful.
+# Compile of counter_n_bits.sv was successful.
+# Compile of adc_data_input_testbench.sv was successful with warnings.
+# Compile of utils.sv was successful with warnings.
+# Compile of shift_reg_4x64.sv was successful.
+# Compile of shift_reg_4x64_testbench.sv was successful.
+# Compile of FIFO.v was successful.
+# Compile of FIFO_testbench.sv failed with 1 errors.
+# Compile of FIFO_writer.sv was successful.
+# Compile of shift_reg_4x64_to_1x64_PISO.sv was successful.
+# Compile of serial_reg_4x64_PISO_testbench.sv was successful.
+# Compile of FIFO_utilities.sv was successful.
+# 12 compiles, 1 failed with 1 error.
+# Compile of adc_data_input.sv was successful.
+# Compile of counter_n_bits.sv was successful.
+# Compile of adc_data_input_testbench.sv was successful with warnings.
+# Compile of utils.sv was successful with warnings.
+# Compile of shift_reg_4x64.sv was successful.
+# Compile of shift_reg_4x64_testbench.sv was successful.
+# Compile of FIFO.v was successful.
+# Compile of FIFO_testbench.sv failed with 1 errors.
+# Compile of FIFO_writer.sv was successful.
+# Compile of shift_reg_4x64_to_1x64_PISO.sv was successful.
+# Compile of serial_reg_4x64_PISO_testbench.sv was successful.
+# Compile of FIFO_utilities.sv was successful.
+# 12 compiles, 1 failed with 1 error.
+# Compile of adc_data_input.sv was successful.
+# Compile of counter_n_bits.sv was successful.
+# Compile of adc_data_input_testbench.sv was successful with warnings.
+# Compile of utils.sv was successful with warnings.
+# Compile of shift_reg_4x64.sv was successful.
+# Compile of shift_reg_4x64_testbench.sv was successful.
+# Compile of FIFO.v was successful.
+# Compile of FIFO_testbench.sv failed with 1 errors.
+# Compile of FIFO_writer.sv was successful.
+# Compile of shift_reg_4x64_to_1x64_PISO.sv was successful.
+# Compile of serial_reg_4x64_PISO_testbench.sv was successful.
+# Compile of FIFO_utilities.sv was successful.
+# 12 compiles, 1 failed with 1 error.
+# Compile of adc_data_input.sv was successful.
+# Compile of counter_n_bits.sv was successful.
+# Compile of adc_data_input_testbench.sv was successful with warnings.
+# Compile of utils.sv was successful with warnings.
+# Compile of shift_reg_4x64.sv was successful.
+# Compile of shift_reg_4x64_testbench.sv was successful.
+# Compile of FIFO.v was successful.
+# Compile of FIFO_testbench.sv was successful with warnings.
+# Compile of FIFO_writer.sv was successful.
+# Compile of shift_reg_4x64_to_1x64_PISO.sv was successful.
+# Compile of serial_reg_4x64_PISO_testbench.sv was successful.
+# Compile of FIFO_utilities.sv was successful.
+# 12 compiles, 0 failed with no errors.
+# Compile of adc_data_input.sv was successful.
+# Compile of counter_n_bits.sv was successful.
+# Compile of adc_data_input_testbench.sv was successful with warnings.
+# Compile of utils.sv was successful with warnings.
+# Compile of shift_reg_4x64.sv was successful.
+# Compile of shift_reg_4x64_testbench.sv was successful.
+# Compile of FIFO.v was successful.
+# Compile of FIFO_testbench.sv was successful with warnings.
+# Compile of FIFO_writer.sv was successful.
+# Compile of shift_reg_4x64_to_1x64_PISO.sv was successful.
+# Compile of serial_reg_4x64_PISO_testbench.sv was successful.
+# Compile of FIFO_utilities.sv was successful.
+# Compile of FIFO_writer_testbench.sv failed with 3 errors.
+# 13 compiles, 1 failed with 3 errors.
+# Compile of adc_data_input.sv was successful.
+# Compile of counter_n_bits.sv was successful.
+# Compile of adc_data_input_testbench.sv was successful with warnings.
+# Compile of utils.sv was successful with warnings.
+# Compile of shift_reg_4x64.sv was successful.
+# Compile of shift_reg_4x64_testbench.sv was successful.
+# Compile of FIFO.v was successful.
+# Compile of FIFO_testbench.sv was successful with warnings.
+# Compile of FIFO_writer.sv was successful.
+# Compile of shift_reg_4x64_to_1x64_PISO.sv was successful.
+# Compile of serial_reg_4x64_PISO_testbench.sv was successful.
+# Compile of FIFO_utilities.sv was successful.
+# Compile of FIFO_writer_testbench.sv failed with 3 errors.
+# 13 compiles, 1 failed with 3 errors.
+# Compile of adc_data_input.sv was successful.
+# Compile of counter_n_bits.sv was successful.
+# Compile of adc_data_input_testbench.sv was successful with warnings.
+# Compile of utils.sv was successful with warnings.
+# Compile of shift_reg_4x64.sv was successful.
+# Compile of shift_reg_4x64_testbench.sv was successful.
+# Compile of FIFO.v was successful.
+# Compile of FIFO_testbench.sv was successful with warnings.
+# Compile of FIFO_writer.sv was successful.
+# Compile of shift_reg_4x64_to_1x64_PISO.sv was successful.
+# Compile of serial_reg_4x64_PISO_testbench.sv was successful.
+# Compile of FIFO_utilities.sv was successful.
+# Compile of FIFO_writer_testbench.sv failed with 3 errors.
+# 13 compiles, 1 failed with 3 errors.
+# Compile of adc_data_input.sv was successful.
+# Compile of counter_n_bits.sv was successful.
+# Compile of adc_data_input_testbench.sv was successful with warnings.
+# Compile of utils.sv was successful with warnings.
+# Compile of shift_reg_4x64.sv was successful.
+# Compile of shift_reg_4x64_testbench.sv was successful.
+# Compile of FIFO.v was successful.
+# Compile of FIFO_testbench.sv was successful with warnings.
+# Compile of FIFO_writer.sv was successful.
+# Compile of shift_reg_4x64_to_1x64_PISO.sv was successful.
+# Compile of serial_reg_4x64_PISO_testbench.sv was successful.
+# Compile of FIFO_utilities.sv was successful.
+# Compile of FIFO_writer_testbench.sv failed with 2 errors.
+# 13 compiles, 1 failed with 2 errors.
+# Compile of adc_data_input.sv was successful.
+# Compile of counter_n_bits.sv was successful.
+# Compile of adc_data_input_testbench.sv was successful with warnings.
+# Compile of utils.sv was successful with warnings.
+# Compile of shift_reg_4x64.sv was successful.
+# Compile of shift_reg_4x64_testbench.sv was successful.
+# Compile of FIFO.v was successful.
+# Compile of FIFO_testbench.sv was successful with warnings.
+# Compile of FIFO_writer.sv was successful.
+# Compile of shift_reg_4x64_to_1x64_PISO.sv was successful.
+# Compile of serial_reg_4x64_PISO_testbench.sv was successful.
+# Compile of FIFO_utilities.sv was successful.
+# Compile of FIFO_writer_testbench.sv failed with 1 errors.
+# 13 compiles, 1 failed with 1 error.
+# Compile of adc_data_input.sv was successful.
+# Compile of counter_n_bits.sv was successful.
+# Compile of adc_data_input_testbench.sv was successful with warnings.
+# Compile of utils.sv was successful with warnings.
+# Compile of shift_reg_4x64.sv was successful.
+# Compile of shift_reg_4x64_testbench.sv was successful.
+# Compile of FIFO.v was successful.
+# Compile of FIFO_testbench.sv was successful with warnings.
+# Compile of FIFO_writer.sv was successful.
+# Compile of shift_reg_4x64_to_1x64_PISO.sv was successful.
+# Compile of serial_reg_4x64_PISO_testbench.sv was successful.
+# Compile of FIFO_utilities.sv was successful.
+# Compile of FIFO_writer_testbench.sv was successful with warnings.
+# 13 compiles, 0 failed with no errors.
+vsim -L altera_lnsim_ver -L 220model_ver -L altera_mf_ver work.FIFO_write_testbench
+# vsim -L altera_lnsim_ver -L 220model_ver -L altera_mf_ver work.FIFO_write_testbench 
+# Start time: 16:44:23 on Feb 05,2020
+# Loading sv_std.std
+# Loading work.my_utils
+# Loading work.fifo_utilities
+# Loading work.FIFO_writer_testbench_sv_unit
+# Loading work.FIFO_write_testbench
+# ** Error: (vsim-3037) /home/andrey/FYP/PMU-FYP/ADC_Data_Acquisition/testbenches/FIFO_writer_testbench.sv(11): Missing instance name in instantiation of 'FIFO_writer'.
+#    Time: 0 ps  Iteration: 0  Instance: /FIFO_write_testbench File: /home/andrey/FYP/PMU-FYP/ADC_Data_Acquisition/testbenches/FIFO_writer_testbench.sv
+# Error loading design
+# End time: 16:44:23 on Feb 05,2020, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# Compile of adc_data_input.sv was successful.
+# Compile of counter_n_bits.sv was successful.
+# Compile of adc_data_input_testbench.sv was successful with warnings.
+# Compile of utils.sv was successful with warnings.
+# Compile of shift_reg_4x64.sv was successful.
+# Compile of shift_reg_4x64_testbench.sv was successful.
+# Compile of FIFO.v was successful.
+# Compile of FIFO_testbench.sv was successful with warnings.
+# Compile of FIFO_writer.sv was successful.
+# Compile of shift_reg_4x64_to_1x64_PISO.sv was successful.
+# Compile of serial_reg_4x64_PISO_testbench.sv was successful.
+# Compile of FIFO_utilities.sv was successful.
+# Compile of FIFO_writer_testbench.sv was successful with warnings.
+# 13 compiles, 0 failed with no errors.
+vsim -L altera_lnsim_ver -L 220model_ver -L altera_mf_ver work.FIFO_write_testbench
+# vsim -L altera_lnsim_ver -L 220model_ver -L altera_mf_ver work.FIFO_write_testbench 
+# Start time: 16:44:40 on Feb 05,2020
+# Loading sv_std.std
+# Loading work.my_utils
+# Loading work.fifo_utilities
+# Loading work.FIFO_writer_testbench_sv_unit
+# Loading work.FIFO_write_testbench
+# Loading work.FIFO_writer
+# Loading work.shift_reg_4x64_PISO
+add wave -position insertpoint  \
+sim:/FIFO_write_testbench/writer \
+sim:/FIFO_write_testbench/nrst \
+sim:/FIFO_write_testbench/drdy \
+sim:/FIFO_write_testbench/data
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+add wave -position insertpoint  \
+sim:/FIFO_write_testbench/FW1/CLK \
+sim:/FIFO_write_testbench/FW1/nRST \
+sim:/FIFO_write_testbench/FW1/DRDY \
+sim:/FIFO_write_testbench/FW1/WRFULL \
+sim:/FIFO_write_testbench/FW1/WREMPTY \
+sim:/FIFO_write_testbench/FW1/DATA \
+sim:/FIFO_write_testbench/FW1/WRREQ \
+sim:/FIFO_write_testbench/FW1/WRDATA \
+sim:/FIFO_write_testbench/FW1/state \
+sim:/FIFO_write_testbench/FW1/next_state \
+sim:/FIFO_write_testbench/FW1/load \
+sim:/FIFO_write_testbench/FW1/data
+restart -f
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Compile of adc_data_input.sv was successful.
+# Compile of counter_n_bits.sv was successful.
+# Compile of adc_data_input_testbench.sv was successful with warnings.
+# Compile of utils.sv was successful with warnings.
+# Compile of shift_reg_4x64.sv was successful.
+# Compile of shift_reg_4x64_testbench.sv was successful.
+# Compile of FIFO.v was successful.
+# Compile of FIFO_testbench.sv was successful with warnings.
+# Compile of FIFO_writer.sv was successful.
+# Compile of shift_reg_4x64_to_1x64_PISO.sv was successful.
+# Compile of serial_reg_4x64_PISO_testbench.sv was successful.
+# Compile of FIFO_utilities.sv was successful.
+# Compile of FIFO_writer_testbench.sv was successful with warnings.
+# 13 compiles, 0 failed with no errors.
+restart -f
+# Loading work.my_utils
+# Loading work.fifo_utilities
+# Loading work.FIFO_writer_testbench_sv_unit
+# Loading work.FIFO_write_testbench
+# Loading work.FIFO_writer
+# Loading work.shift_reg_4x64_PISO
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Compile of adc_data_input.sv was successful.
+# Compile of counter_n_bits.sv was successful.
+# Compile of adc_data_input_testbench.sv was successful with warnings.
+# Compile of utils.sv was successful with warnings.
+# Compile of shift_reg_4x64.sv was successful.
+# Compile of shift_reg_4x64_testbench.sv was successful.
+# Compile of FIFO.v was successful.
+# Compile of FIFO_testbench.sv was successful with warnings.
+# Compile of FIFO_writer.sv was successful.
+# Compile of shift_reg_4x64_to_1x64_PISO.sv was successful.
+# Compile of serial_reg_4x64_PISO_testbench.sv was successful.
+# Compile of FIFO_utilities.sv was successful.
+# Compile of FIFO_writer_testbench.sv was successful with warnings.
+# 13 compiles, 0 failed with no errors.
+restart -f
+# Loading work.my_utils
+# Loading work.fifo_utilities
+# Loading work.FIFO_writer_testbench_sv_unit
+# Loading work.FIFO_write_testbench
+# Loading work.FIFO_writer
+# Loading work.shift_reg_4x64_PISO
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Compile of adc_data_input.sv was successful.
+# Compile of counter_n_bits.sv was successful.
+# Compile of adc_data_input_testbench.sv was successful with warnings.
+# Compile of utils.sv was successful with warnings.
+# Compile of shift_reg_4x64.sv was successful.
+# Compile of shift_reg_4x64_testbench.sv was successful.
+# Compile of FIFO.v was successful.
+# Compile of FIFO_testbench.sv was successful with warnings.
+# Compile of FIFO_writer.sv was successful.
+# Compile of shift_reg_4x64_to_1x64_PISO.sv was successful.
+# Compile of serial_reg_4x64_PISO_testbench.sv was successful.
+# Compile of FIFO_utilities.sv was successful.
+# Compile of FIFO_writer_testbench.sv was successful with warnings.
+# 13 compiles, 0 failed with no errors.
+restart -f
+# Loading work.my_utils
+# Loading work.fifo_utilities
+# Loading work.FIFO_writer_testbench_sv_unit
+# Loading work.FIFO_write_testbench
+# Loading work.FIFO_writer
+# Loading work.shift_reg_4x64_PISO
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Compile of adc_data_input.sv was successful.
+# Compile of counter_n_bits.sv was successful.
+# Compile of adc_data_input_testbench.sv was successful with warnings.
+# Compile of utils.sv was successful with warnings.
+# Compile of shift_reg_4x64.sv was successful.
+# Compile of shift_reg_4x64_testbench.sv was successful.
+# Compile of FIFO.v was successful.
+# Compile of FIFO_testbench.sv was successful with warnings.
+# Compile of FIFO_writer.sv was successful.
+# Compile of shift_reg_4x64_to_1x64_PISO.sv was successful.
+# Compile of serial_reg_4x64_PISO_testbench.sv was successful.
+# Compile of FIFO_utilities.sv was successful.
+# Compile of FIFO_writer_testbench.sv failed with 1 errors.
+# 13 compiles, 1 failed with 1 error.
+# Compile of adc_data_input.sv was successful.
+# Compile of counter_n_bits.sv was successful.
+# Compile of adc_data_input_testbench.sv was successful with warnings.
+# Compile of utils.sv was successful with warnings.
+# Compile of shift_reg_4x64.sv was successful.
+# Compile of shift_reg_4x64_testbench.sv was successful.
+# Compile of FIFO.v was successful.
+# Compile of FIFO_testbench.sv was successful with warnings.
+# Compile of FIFO_writer.sv was successful.
+# Compile of shift_reg_4x64_to_1x64_PISO.sv was successful.
+# Compile of serial_reg_4x64_PISO_testbench.sv was successful.
+# Compile of FIFO_utilities.sv was successful.
+# Compile of FIFO_writer_testbench.sv was successful with warnings.
+# 13 compiles, 0 failed with no errors.
+# Compile of adc_data_input.sv was successful.
+# Compile of counter_n_bits.sv was successful.
+# Compile of adc_data_input_testbench.sv was successful with warnings.
+# Compile of utils.sv was successful with warnings.
+# Compile of shift_reg_4x64.sv was successful.
+# Compile of shift_reg_4x64_testbench.sv was successful.
+# Compile of FIFO.v was successful.
+# Compile of FIFO_testbench.sv was successful with warnings.
+# Compile of FIFO_writer.sv was successful.
+# Compile of shift_reg_4x64_to_1x64_PISO.sv was successful.
+# Compile of serial_reg_4x64_PISO_testbench.sv was successful.
+# Compile of FIFO_utilities.sv was successful.
+# Compile of FIFO_writer_testbench.sv was successful with warnings.
+# 13 compiles, 0 failed with no errors.
+restart -f
+# Loading work.my_utils
+# Loading work.fifo_utilities
+# Loading work.FIFO_writer_testbench_sv_unit
+# Loading work.FIFO_write_testbench
+# Loading work.FIFO_writer
+# Loading work.shift_reg_4x64_PISO
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+quit -sim
+# End time: 16:55:54 on Feb 05,2020, Elapsed time: 0:11:14
+# Errors: 0, Warnings: 6
