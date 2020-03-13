@@ -1,0 +1,24 @@
+# system info IoTOctopus_QSYS on 2020.03.10.09:19:03
+system_info:
+name,value
+DEVICE,5CSEMA6F31C8
+DEVICE_FAMILY,Cyclone V
+GENERATION_ID,1583792343
+#
+#
+# Files generated for IoTOctopus_QSYS on 2020.03.10.09:19:03
+files:
+filepath,kind,attributes,module,is_top
+simulation/IoTOctopus_QSYS.v,VERILOG,,IoTOctopus_QSYS,true
+simulation/submodules/IoTOctopus_QSYS_eth_tse_0.v,VERILOG,,IoTOctopus_QSYS_eth_tse_0,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+IoTOctopus_QSYS.eth_tse_0,IoTOctopus_QSYS_eth_tse_0
+IoTOctopus_QSYS.eth_tse_0.i_tse_mac,altera_eth_tse_mac
+IoTOctopus_QSYS.ethernet_master_0,IoTOctopus_QSYS_ethernet_master_0
+IoTOctopus_QSYS.mm_interconnect_0,IoTOctopus_QSYS_mm_interconnect_0
+IoTOctopus_QSYS.avalon_st_adapter,IoTOctopus_QSYS_avalon_st_adapter
+IoTOctopus_QSYS.avalon_st_adapter_001,IoTOctopus_QSYS_avalon_st_adapter_001
+IoTOctopus_QSYS.rst_controller,altera_reset_controller

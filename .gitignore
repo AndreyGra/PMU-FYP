@@ -66,8 +66,12 @@
 incremental_db/
 */work/
 db/
-_output_files/
+output_files/
 PLLJ_PLLSPE_INFO.txt
 cadence/
 work/
 !*/cbx_args.txt
+.qsys_edit/
+simulation/
+synthesis/
+!ethernet_master_hw.tcl
