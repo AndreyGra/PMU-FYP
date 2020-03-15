@@ -1,5 +1,15 @@
 
 module IoTOctopus_QSYS (
+	adc_control_pins_external_export,
+	adc_spi_master_external_MISO,
+	adc_spi_master_external_MOSI,
+	adc_spi_master_external_SCLK,
+	adc_spi_master_external_SS_n,
+	clk_32mhz_input_clk,
+	clk_8mhz_clk,
+	clk_8mhz_locked_export,
+	gps_uart_external_rxd,
+	gps_uart_external_txd,
 	hps_io_hps_io_emac0_inst_TX_CLK,
 	hps_io_hps_io_emac0_inst_TXD0,
 	hps_io_hps_io_emac0_inst_TXD1,
@@ -82,6 +92,16 @@ module IoTOctopus_QSYS (
 	memory_mem_dm,
 	memory_oct_rzqin);	
 
+	output	[6:0]	adc_control_pins_external_export;
+	input		adc_spi_master_external_MISO;
+	output		adc_spi_master_external_MOSI;
+	output		adc_spi_master_external_SCLK;
+	output		adc_spi_master_external_SS_n;
+	input		clk_32mhz_input_clk;
+	output		clk_8mhz_clk;
+	output		clk_8mhz_locked_export;
+	input		gps_uart_external_rxd;
+	output		gps_uart_external_txd;
 	output		hps_io_hps_io_emac0_inst_TX_CLK;
 	output		hps_io_hps_io_emac0_inst_TXD0;
 	output		hps_io_hps_io_emac0_inst_TXD1;

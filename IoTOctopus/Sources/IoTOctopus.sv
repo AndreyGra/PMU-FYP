@@ -187,6 +187,9 @@ module IoTOctopus(
 				 inout            [0:0] HPS_3V3_GPIO56_via_TRACE_D7
 );				
 
+//Custom assignments
+assign FPGA_3V3_ADC_nSTART = 0;
+
 //IoT Octopus qsys module instantiation
 IoTOctopus_QSYS u0 (
                 .memory_mem_a                                 (HPS_DRAM_MA),                    
@@ -287,7 +290,19 @@ IoTOctopus_QSYS u0 (
                 .hps_io_hps_io_gpio_inst_GPIO49               (HPS_3V3_GPIO49_via_TRACE_D0),    
                 .hps_io_hps_io_gpio_inst_GPIO50               (HPS_3V3_GPIO49_via_TRACE_D1),    
                 .hps_io_hps_io_gpio_inst_GPIO55               (HPS_3V3_GPIO55_via_TRACE_D6),    
-                .hps_io_hps_io_gpio_inst_GPIO56               (HPS_3V3_GPIO56_via_TRACE_D7)     
+                .hps_io_hps_io_gpio_inst_GPIO56               (HPS_3V3_GPIO56_via_TRACE_D7),
+					 
+					 .clk_32mhz_input_clk             				  (FPGA_FPGA_3V3_32_768MHz_CLK_IN),          //  clk_32mhz_input.clk
+					 .clk_8mhz_clk                    				  (FPGA_3V3_IO_CLKOUT),                    	//  clk_8mhz.clk
+					 .clk_8mhz_locked_export          				  (FPGA_3V3_ADC_nRESET),          				//  clk_8mhz_locked.export
+					 .adc_spi_master_external_MISO    				  (FPGA_3V3_SPI_MISO),    							//  adc_spi_master_external.MISO
+					 .adc_spi_master_external_MOSI    				  (FPGA_3V3_SPI_MOSI),    							// .MOSI
+					 .adc_spi_master_external_SCLK    				  (FPGA_3V3_SPI_CLK),    							// .SCLK
+					 .adc_spi_master_external_SS_n    				  (FPGA_3V3_SPI_SS0),    							// .SS_n
+					 .gps_uart_external_rxd           				  (FPGA_3V3_UART_RX),           					//  gps_uart_external.rxd
+					 .gps_uart_external_txd           				  (FPGA_3V3_UART_TX),            				// .txd
+                .adc_control_pins_external_export             ({FPGA_3V3_ADC_FORMAT,FPGA_3V3_ADC_MODE,FPGA_3V3_ADC_nSYNC_IN})
+                
 );
 
 endmodule
