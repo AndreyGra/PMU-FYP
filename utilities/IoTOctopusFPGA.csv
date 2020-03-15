@@ -1,0 +1,65 @@
+# Copyright (C) 2018  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details.
+
+# Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+# File: /home/andrey/FYP/PMU-FYP/IoTOctopusFPGA.csv
+# Generated on: Sat Mar 14 22:17:42 2020
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus Prime software.
+
+To,Direction,Location,I/O Bank,VREF Group,I/O Standard,Reserved,Current Strength,Slew Rate,Differential Pair,Transceiver Analog Settings Protocol,VCCR_GXB/VCCT_GXB Voltage,Transceiver I/O Pin Termination,Transceiver Dedicated Refclk Pin Termination,Transmitter Common Mode Driver Voltage,Transmitter Slew Rate Control,Transmitter Differential Output Voltage,Receiver Buffer Common Mode Voltage,Strict Preservation
+FPGA_3V3_ADC_DOUT[3],Unknown,PIN_AG1,3A,B3A_N0,,,,,,,,,,,,,,
+FPGA_3V3_ADC_DCLK,Unknown,PIN_AC12,3A,B3A_N0,,,,,,,,,,,,,,
+FPGA_3V3_ADC_DOUT[2],Unknown,PIN_AE12,3A,B3A_N0,,,,,,,,,,,,,,
+FPGA_3V3_ADC_DOUT[1],Unknown,PIN_AD11,3A,B3A_N0,,,,,,,,,,,,,,
+FPGA_3V3_ADC_DOUT[0],Unknown,PIN_AD12,3A,B3A_N0,,,,,,,,,,,,,,
+FPGA_3V3_ADC_MODE[3],Unknown,PIN_AA12,3A,B3A_N0,,,,,,,,,,,,,,
+FPGA_3V3_ADC_MODE[2],Unknown,PIN_AB12,3A,B3A_N0,,,,,,,,,,,,,,
+FPGA_3V3_ADC_MODE[1],Unknown,PIN_AF9,3A,B3A_N0,,,,,,,,,,,,,,
+FPGA_3V3_ADC_MODE[0],Unknown,PIN_AG8,3A,B3A_N0,,,,,,,,,,,,,,
+FPGA_3V3_ADC_nDRDY,Unknown,PIN_AF4,3A,B3A_N0,,,,,,,,,,,,,,
+FPGA_3V3_ADC_nRESET,Unknown,PIN_AE7,3A,B3A_N0,,,,,,,,,,,,,,
+FPGA_3V3_ADC_nSTART,Unknown,PIN_AG3,3A,B3A_N0,,,,,,,,,,,,,,
+FPGA_3V3_ADC_nSYNC_IN,Unknown,PIN_AG2,3A,B3A_N0,,,,,,,,,,,,,,
+FPGA_3V3_ADC_nSYNC_OUT,Unknown,PIN_AH3,3A,B3A_N0,,,,,,,,,,,,,,
+FPGA_3V3_ADC_FORMAT[0],Unknown,PIN_AF5,3A,B3A_N0,,,,,,,,,,,,,,
+FPGA_3V3_ADC_FORMAT[1],Unknown,PIN_AE9,3A,B3A_N0,,,,,,,,,,,,,,
+FPGA_3V3_SPI_SS0,Unknown,PIN_AG7,3A,B3A_N0,,,,,,,,,,,,,,
+FPGA_3V3_SPI_MOSI,Unknown,PIN_AD9,3A,B3A_N0,,,,,,,,,,,,,,
+FPGA_3V3_SPI_MISO,Unknown,PIN_AC9,3A,B3A_N0,,,,,,,,,,,,,,
+FPGA_3V3_SPI_CLK,Unknown,PIN_AF8,3A,B3A_N0,,,,,,,,,,,,,,
+FPGA_FPGA_3V3_32_768MHz_CLK_IN,Unknown,PIN_AF14,3B,B3B_N0,,,,,,,,,,,,,,
+FPGA_3V3_IO_CLKOUT,Unknown,PIN_AH12,3B,B3B_N0,,,,,,,,,,,,,,
+FPGA_3V3_GPS_1PPS,Unknown,PIN_C9,8A,B8A_N0,,,,,,,,,,,,,,
+FPGA_3V3_EXTERNAL_1PPS,Unknown,PIN_E9,8A,B8A_N0,,,,,,,,,,,,,,
+FPGA_3V3_UART_TX,Unknown,PIN_D12,8A,B8A_N0,,,,,,,,,,,,,,
+FPGA_3V3_UART_RX,Unknown,PIN_E12,8A,B8A_N0,,,,,,,,,,,,,,
+FPGA_3V3_1G_PHY1_TX_CLK,Unknown,PIN_AE19,4A,B4A_N0,,,,,,,,,,,,,,
+FPGA_3V3_1G_PHY1_TX_CTL,Unknown,PIN_AA19,4A,B4A_N0,,,,,,,,,,,,,,
+FPGA_3V3_1G_PHY1_RX_CTL,Unknown,PIN_AK19,4A,B4A_N0,,,,,,,,,,,,,,
+FPGA_3V3_1G_PHY1_RX_CLK,Unknown,PIN_AA16,4A,B4A_N0,,,,,,,,,,,,,,
+FPGA_3V3_1G_PHY1_MDIO,Unknown,PIN_AE16,4A,B4A_N0,,,,,,,,,,,,,,
+FPGA_3V3_1G_PHY1_MDC,Unknown,PIN_AF16,4A,B4A_N0,,,,,,,,,,,,,,
+FPGA_3V3_1G_PHY1_IRQ,Unknown,PIN_V16,4A,B4A_N0,,,,,,,,,,,,,,
+FPGA_3V3_1G_PHY1_nRST,Unknown,PIN_AK16,4A,B4A_N0,,,,,,,,,,,,,,
+FPGA_3V3_ETH_PHY1_CLK,Unknown,PIN_W15,3B,B3B_N0,,,,,,,,,,,,,,
+FPGA_3V3_1G_PHY1_TX_D[0],Unknown,PIN_AE22,4A,B4A_N0,,,,,,,,,,,,,,
+FPGA_3V3_1G_PHY1_TX_D[1],Unknown,PIN_AD21,4A,B4A_N0,,,,,,,,,,,,,,
+FPGA_3V3_1G_PHY1_TX_D[2],Unknown,PIN_AD20,4A,B4A_N0,,,,,,,,,,,,,,
+FPGA_3V3_1G_PHY1_TX_D[3],Unknown,PIN_AG20,4A,B4A_N0,,,,,,,,,,,,,,
+FPGA_3V3_1G_PHY1_RX_D[3],Unknown,PIN_AD17,4A,B4A_N0,,,,,,,,,,,,,,
+FPGA_3V3_1G_PHY1_RX_D[2],Unknown,PIN_AB17,4A,B4A_N0,,,,,,,,,,,,,,
+FPGA_3V3_1G_PHY1_RX_D[1],Unknown,PIN_AF18,4A,B4A_N0,,,,,,,,,,,,,,
+FPGA_3V3_1G_PHY1_RX_D[0],Unknown,PIN_AE17,4A,B4A_N0,,,,,,,,,,,,,,
+FPGA_3V3_1G_PHY1_125M_CLK,Unknown,PIN_AC18,4A,B4A_N0,,,,,,,,,,,,,,

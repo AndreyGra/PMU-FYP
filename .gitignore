@@ -74,4 +74,5 @@ work/
 .qsys_edit/
 simulation/
 synthesis/
-!ethernet_master_hw.tcl
+qsys_edit/
+hps_isw_handoff
