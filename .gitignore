@@ -76,3 +76,4 @@ simulation/
 synthesis/
 qsys_edit/
 hps_isw_handoff
+!rom_memory.hex

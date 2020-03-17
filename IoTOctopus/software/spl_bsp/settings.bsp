@@ -2,9 +2,9 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>spl</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>Mar 15, 2020 8:23:04 PM</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1584264184477</BspGeneratedUnixTimeStamp>
-        <BspGeneratedLocation>../../../../../intelFPGA/18.1/embedded</BspGeneratedLocation>
+        <BspGeneratedTimeStamp>Mar 17, 2020 9:24:06 PM</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1584440646359</BspGeneratedUnixTimeStamp>
+        <BspGeneratedLocation>./</BspGeneratedLocation>
         <BspSettingsFile>/home/andrey/FYP/PMU-FYP/IoTOctopus/software/spl_bsp/settings.bsp</BspSettingsFile>
         <HpsSettingsPath>../../hps_isw_handoff/IoTOctopus_QSYS_hps_0</HpsSettingsPath>
         <JdiFile>default</JdiFile>
