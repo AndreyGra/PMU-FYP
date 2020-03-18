@@ -189,6 +189,7 @@ module IoTOctopus(
 
 //Custom assignments
 assign FPGA_3V3_ADC_nSTART = 0;
+//assign HPS_3V3_GPIO42_via_SDMMC_D6 = 0;
 
 //IoT Octopus qsys module instantiation
 IoTOctopus_QSYS u0 (
