@@ -92,6 +92,11 @@ module IoTOctopus(
                 //I2C1
 				 inout            [0:0] HPS_3V3_I2C1_SCL,
 				 inout            [0:0] HPS_3V3_I2C1_SDA,
+				 
+				 //I2C3
+				 inout            [0:0] HPS_3V3_I2C3_SCL,
+				 inout            [0:0] HPS_3V3_I2C3_SDA,
+				 
 				
 				//SPI
 				output            [0:0] HPS_3V3_SPIM0_CLK,
@@ -189,7 +194,7 @@ module IoTOctopus(
 
 //Custom assignments
 assign FPGA_3V3_ADC_nSTART = 0;
-//assign HPS_3V3_GPIO42_via_SDMMC_D6 = 0;
+assign FPGA_3V3_ADC_nRST = 1;
 
 //IoT Octopus qsys module instantiation
 IoTOctopus_QSYS u0 (
@@ -241,11 +246,14 @@ IoTOctopus_QSYS u0 (
                 .hps_io_hps_io_emac0_inst_MDC                 (HPS_3V3_EMAC0_RGMII_MDC),        
         
                 // I2Cs
-                .hps_io_hps_io_i2c0_inst_SDA                  (HPS_3V3_I2C0_SDA),               
-                .hps_io_hps_io_i2c0_inst_SCL                  (HPS_3V3_I2C0_SCL),               
-                
-                .hps_io_hps_io_i2c1_inst_SDA                  (HPS_3V3_I2C1_SDA),               
-                .hps_io_hps_io_i2c1_inst_SCL                  (HPS_3V3_I2C1_SCL),               
+					 .hps_io_hps_io_i2c0_inst_SDA      				  (HPS_3V3_I2C0_SDA),
+					 .hps_io_hps_io_i2c0_inst_SCL      				  (HPS_3V3_I2C0_SCL),
+					 
+					 .hps_io_hps_io_i2c1_inst_SDA      				  (HPS_3V3_I2C1_SDA),
+					 .hps_io_hps_io_i2c1_inst_SCL      				  (HPS_3V3_I2C1_SCL),
+					 
+					 .hps_io_hps_io_i2c3_inst_SDA      				  (HPS_3V3_I2C3_SDA),
+					 .hps_io_hps_io_i2c3_inst_SCL      				  (HPS_3V3_I2C3_SCL),
                 
                 //CANs
                 .hps_io_hps_io_can0_inst_RX                   (HPS_3V3_CAN0_RX),                
@@ -290,8 +298,6 @@ IoTOctopus_QSYS u0 (
                 .hps_io_hps_io_gpio_inst_GPIO48               (HPS_3V3_GPIO48_via_TRACE_CLK),   
                 .hps_io_hps_io_gpio_inst_GPIO49               (HPS_3V3_GPIO49_via_TRACE_D0),    
                 .hps_io_hps_io_gpio_inst_GPIO50               (HPS_3V3_GPIO49_via_TRACE_D1),    
-                .hps_io_hps_io_gpio_inst_GPIO55               (HPS_3V3_GPIO55_via_TRACE_D6),    
-                .hps_io_hps_io_gpio_inst_GPIO56               (HPS_3V3_GPIO56_via_TRACE_D7),
 					 
 					 .clk_32mhz_input_clk             				  (FPGA_FPGA_3V3_32_768MHz_CLK_IN),          //  clk_32mhz_input.clk
 					 .clk_8mhz_clk                    				  (FPGA_3V3_IO_CLKOUT),                    	//  clk_8mhz.clk

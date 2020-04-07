@@ -40,6 +40,8 @@ module IoTOctopus_QSYS (
 	hps_io_hps_io_i2c0_inst_SCL,
 	hps_io_hps_io_i2c1_inst_SDA,
 	hps_io_hps_io_i2c1_inst_SCL,
+	hps_io_hps_io_i2c3_inst_SDA,
+	hps_io_hps_io_i2c3_inst_SCL,
 	hps_io_hps_io_can0_inst_RX,
 	hps_io_hps_io_can0_inst_TX,
 	hps_io_hps_io_can1_inst_RX,
@@ -73,8 +75,6 @@ module IoTOctopus_QSYS (
 	hps_io_hps_io_gpio_inst_GPIO48,
 	hps_io_hps_io_gpio_inst_GPIO49,
 	hps_io_hps_io_gpio_inst_GPIO50,
-	hps_io_hps_io_gpio_inst_GPIO55,
-	hps_io_hps_io_gpio_inst_GPIO56,
 	memory_mem_a,
 	memory_mem_ba,
 	memory_mem_ck,
@@ -132,6 +132,8 @@ module IoTOctopus_QSYS (
 	inout		hps_io_hps_io_i2c0_inst_SCL;
 	inout		hps_io_hps_io_i2c1_inst_SDA;
 	inout		hps_io_hps_io_i2c1_inst_SCL;
+	inout		hps_io_hps_io_i2c3_inst_SDA;
+	inout		hps_io_hps_io_i2c3_inst_SCL;
 	input		hps_io_hps_io_can0_inst_RX;
 	output		hps_io_hps_io_can0_inst_TX;
 	input		hps_io_hps_io_can1_inst_RX;
@@ -165,8 +167,6 @@ module IoTOctopus_QSYS (
 	inout		hps_io_hps_io_gpio_inst_GPIO48;
 	inout		hps_io_hps_io_gpio_inst_GPIO49;
 	inout		hps_io_hps_io_gpio_inst_GPIO50;
-	inout		hps_io_hps_io_gpio_inst_GPIO55;
-	inout		hps_io_hps_io_gpio_inst_GPIO56;
 	output	[14:0]	memory_mem_a;
 	output	[2:0]	memory_mem_ba;
 	output		memory_mem_ck;

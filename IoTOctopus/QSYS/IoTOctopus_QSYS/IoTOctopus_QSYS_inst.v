@@ -39,6 +39,8 @@
 		.hps_io_hps_io_i2c0_inst_SCL      (<connected-to-hps_io_hps_io_i2c0_inst_SCL>),      //                          .hps_io_i2c0_inst_SCL
 		.hps_io_hps_io_i2c1_inst_SDA      (<connected-to-hps_io_hps_io_i2c1_inst_SDA>),      //                          .hps_io_i2c1_inst_SDA
 		.hps_io_hps_io_i2c1_inst_SCL      (<connected-to-hps_io_hps_io_i2c1_inst_SCL>),      //                          .hps_io_i2c1_inst_SCL
+		.hps_io_hps_io_i2c3_inst_SDA      (<connected-to-hps_io_hps_io_i2c3_inst_SDA>),      //                          .hps_io_i2c3_inst_SDA
+		.hps_io_hps_io_i2c3_inst_SCL      (<connected-to-hps_io_hps_io_i2c3_inst_SCL>),      //                          .hps_io_i2c3_inst_SCL
 		.hps_io_hps_io_can0_inst_RX       (<connected-to-hps_io_hps_io_can0_inst_RX>),       //                          .hps_io_can0_inst_RX
 		.hps_io_hps_io_can0_inst_TX       (<connected-to-hps_io_hps_io_can0_inst_TX>),       //                          .hps_io_can0_inst_TX
 		.hps_io_hps_io_can1_inst_RX       (<connected-to-hps_io_hps_io_can1_inst_RX>),       //                          .hps_io_can1_inst_RX
@@ -72,8 +74,6 @@
 		.hps_io_hps_io_gpio_inst_GPIO48   (<connected-to-hps_io_hps_io_gpio_inst_GPIO48>),   //                          .hps_io_gpio_inst_GPIO48
 		.hps_io_hps_io_gpio_inst_GPIO49   (<connected-to-hps_io_hps_io_gpio_inst_GPIO49>),   //                          .hps_io_gpio_inst_GPIO49
 		.hps_io_hps_io_gpio_inst_GPIO50   (<connected-to-hps_io_hps_io_gpio_inst_GPIO50>),   //                          .hps_io_gpio_inst_GPIO50
-		.hps_io_hps_io_gpio_inst_GPIO55   (<connected-to-hps_io_hps_io_gpio_inst_GPIO55>),   //                          .hps_io_gpio_inst_GPIO55
-		.hps_io_hps_io_gpio_inst_GPIO56   (<connected-to-hps_io_hps_io_gpio_inst_GPIO56>),   //                          .hps_io_gpio_inst_GPIO56
 		.memory_mem_a                     (<connected-to-memory_mem_a>),                     //                    memory.mem_a
 		.memory_mem_ba                    (<connected-to-memory_mem_ba>),                    //                          .mem_ba
 		.memory_mem_ck                    (<connected-to-memory_mem_ck>),                    //                          .mem_ck
